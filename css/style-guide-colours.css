@@ -8,6 +8,15 @@
   	text-align: center;
 }
 
+.colour-white {
+	background-color: #fff;
+	color: black;
+}
+
+.colour-white h3 {
+	color: #00888A;
+}
+
 .colour-green {
 	background-color: #00888A;
 	color: #ffffff;
