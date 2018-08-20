@@ -1,0 +1,25 @@
+.colour-block {
+	padding: 6rem 2rem 3rem 2rem;
+}
+
+.colour-block .row,
+.colour-block button {
+	margin-bottom: 3rem;
+}
+
+.card-transparent {
+	background-color: transparent;
+	border: none;
+}
+
+.card-transparent .card-body {
+	padding: 1.25rem 0;
+}
+
+.box-white {
+	background-color: #fff;
+	border-radius: 0.2rem;
+	color: black;
+	padding: 4rem;
+}
+
