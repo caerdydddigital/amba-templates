@@ -1,0 +1,24 @@
+/* Fonts */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Lato', sans-serif; /* replace with Avenir when available */
+}
+
+h6,
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h6 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.note {
+	font-style: italic;
+	color: red;
+}

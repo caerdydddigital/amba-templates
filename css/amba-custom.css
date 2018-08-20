@@ -1,15 +1,4 @@
-h1, h2, h3, h4, h5 {
-	font-family: 'Lato', sans-serif;
-}
 
-h6, p {
-	font-family: 'Open Sans', sans-serif;
-}
-
-h6 {
-	text-transform: uppercase;
-	font-weight: bold;
-}
 
 button {
 	border-radius: 4px;
@@ -26,36 +15,7 @@ button {
 	padding:0;
 }
 
-/* Headers / Jumbotrons */
 
-.jumbotron {
- 	display: grid;
-  	margin: 0;
-  	place-items: center center;
-  	height: 80vh;
-  	max-height: 480px;
-  	text-align: center;
-}
-
-.jumbotron-accreditation {
-  	background: url("../img/img-busschool.jpeg");
-  	background-size: cover;
-}
-
-.jumbotron-style-guide {
-  	background: url("../img/img-books.jpeg") no-repeat bottom center;
-  	background-size: cover;
-}
-
-.jumbotron-title {
-	background-color: #00888A;
-	color: #fff;
-	width: 33%;
-	padding: 1rem 2rem;
-	border-radius: 0.2rem;
-	font-family: 'Lato', sans-serif;
-	font-size: 2.5rem;
-}
 
 
 /* Cards */
@@ -101,36 +61,3 @@ li {
 	margin-bottom: 3rem;
 }
 
-.colour-square {
-	width: 100%;
-	height: 140px;
-	background-color: red;
- 	display: grid;
-  	margin: 0;
-  	place-items: center center;
-  	text-align: center;
-}
-
-.colour-green {
-	background-color: #00888A;
-	color: #ffffff;
-}
-
-.colour-red {
-	background-color: #8C0044;
-	color: #ffffff;
-}
-.colour-orange {
-	background-color: #EE7401;
-	color: #ffffff;
-}
-.colour-grey-light {
-	background-color: #E6EDEF;
-}
-.colour-grey-mid {
-	background-color: #A4B3B7;
-}
-.colour-blue-dark {
-	background-color: #1C2E36;
-	color: #ffffff;	
-}
