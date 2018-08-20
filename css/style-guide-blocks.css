@@ -23,3 +23,10 @@
 	padding: 4rem;
 }
 
+.card {
+	color: black;
+}
+
+.card .row {
+	margin-bottom: 0;
+}
