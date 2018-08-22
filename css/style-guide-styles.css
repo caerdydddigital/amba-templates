@@ -117,6 +117,12 @@ button {
 	margin-bottom: 1rem;
 }
 
+.btn-primary {
+	color: #fff;
+    background-color: #EE7401;
+    border-color: #EE7401;
+}
+
 .text-header {
 	margin-bottom: 3.4rem;
 }
@@ -226,6 +232,11 @@ button {
 	padding-bottom: 3.2rem;
 }
 
+.amba-block-deep {
+	padding-top: 5.2rem;
+	padding-bottom: 5.2rem;
+}
+
 .amba-block-hug-left {
 	padding-left: 0;
 }
@@ -245,6 +256,18 @@ button {
 
 .card-wide {
 	margin-bottom: 3rem;
+}
+
+.background-image-1 {
+  	background: url("../img/img-people-1.jpeg") no-repeat bottom center;
+  	background-size: cover;
+  	color: white;
+}
+
+.background-image-2 {
+  	background: url("../img/img-people-2.jpeg") no-repeat bottom center;
+  	background-size: cover;
+  	color: white;
 }
 
 /* ---- AMBA Imagery ---- */
