@@ -127,6 +127,11 @@ button {
     border-color: #EE7401;
 }
 
+.btn-block {
+	border-radius: 0 0 0.2rem 0.2rem;
+	padding: 0.8rem 1rem;
+}
+
 .text-header {
 	margin-bottom: 3.4rem;
 }
@@ -170,9 +175,9 @@ button {
 	color: black;
 }
 
-.colour-white h4 {
+/*.colour-white h4 {
 	color: #8C0044;
-}
+}*/
 
 .colour-green {
 	background-color: #00888A;
@@ -293,7 +298,7 @@ i {
 	color: #00888A;
 }
 .contact-card {
-	border-radius: 0.4rem;
+	border-radius: 0.2rem;
 	margin-top: 75px;
 }
 
@@ -305,21 +310,14 @@ i {
 	border: 6px solid white;
 	border-radius: 100px;
 	position: relative;
-	top: -50px;
+	top: -60px;
 	margin: 0 auto;
 }
 
 .contact-card-body {
 	padding: 0 2rem;
 	position: relative;
-	top: -25px;
-}
-
-
-
-
-.card-img-top {
-	border-bottom: 0.2rem #00888A solid;
+	top: -30px;
 }
 
 .background-image-1 {
