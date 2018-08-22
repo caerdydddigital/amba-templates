@@ -8,22 +8,10 @@
 	padding-bottom: 4.8rem;
 }
 
-.block-standard-even {
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-}
-
 .block-half-pic-left {
 	padding-top: 6rem;
 	padding-bottom: 6rem;
 	padding-left: 0;
-}
-
-.block-half-pic-left-full-bleed {
-	padding-top: 0rem;
-	padding-bottom: 0rem;
-	padding-left:0;
-	padding-right:0;
 }
 
 .block-half-pic-right {
@@ -31,19 +19,6 @@
 	padding-bottom: 6rem;
 	padding-right:0;
 }
-
-.block-half-pic-right-full-bleed {
-	padding-top: 0rem;
-	padding-bottom: 0rem;
-	padding-right:0;
-}
-
-
-.card-holder {
-	padding: 2rem 0;
-}
-
-
 
 /*.colour-block .row,
 .colour-block button {

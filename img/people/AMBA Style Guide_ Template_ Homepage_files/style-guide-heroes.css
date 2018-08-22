@@ -1,0 +1,44 @@
+/* Headers / Jumbotrons */
+
+.jumbotron {
+ 	display: grid;
+  	margin: 0;
+  	place-items: center center;
+  	height: 80vh;
+  	max-height: 480px;
+  	text-align: center;
+}
+
+.jumbotron-title {
+	color: #fff;
+	padding: 1rem 2rem;
+	border-radius: 0.2rem;
+  font-family: 'Nunito Sans', sans-serif;
+/*	font-size: 2.5rem;*/
+}
+
+.jumbotron-style-one {
+  	background: url("../img/img-people-1.jpeg") no-repeat bottom center;
+  	background-size: cover;
+}
+
+.jumbotron-style-two {
+  	background: url("../img/city2-image.jpeg") no-repeat bottom center;
+  	background-size: cover;
+}
+
+.jumbotron-style-three {
+  	background: url("../img/city3-image.jpeg") no-repeat bottom center;
+  	background-size: cover;
+}
+
+.jumbotron-style-four {
+  	background: url("../img/people/img-people-atdesk-hue-green.jpg") no-repeat bottom center;
+  	background-size: cover;
+}
+
+@media (min-width: 768px) {
+	.container {
+	    max-width: 640px;
+	}
+}

@@ -1,0 +1,18 @@
+.page-break {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.colour-square {
+	margin-bottom: 2rem;
+}
+
+
+button {
+	background-color: #EE7401;
+	color: #ffffff;
+	border: none;
+	border-radius: 0.1rem;
+	padding: 0.4rem 2.0rem;
+}
+
