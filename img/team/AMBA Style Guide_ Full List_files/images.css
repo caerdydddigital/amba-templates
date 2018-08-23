@@ -1,0 +1,21 @@
+/* Images */
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+	border-radius: 0.20rem;
+}
+
+
+.amba-content-block-bg-image-1 {
+  	background: url("../img/img-people-1.jpeg") no-repeat bottom center;
+  	background-size: cover;
+}
+
+.amba-content-block-bg-image-2 {
+  	background: url("../img/img-people-2.jpeg") no-repeat bottom center;
+  	background-size: cover;
+}

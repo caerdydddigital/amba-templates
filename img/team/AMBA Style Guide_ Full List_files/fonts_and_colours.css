@@ -1,0 +1,143 @@
+/* Fonts and Colours */
+
+/* --- Text Colours --- */
+.text-amba-white {color: #ffffff;}
+.text-amba-green {color: #00888A;}
+.text-amba-red {color: #8C0044;}
+.text-amba-orange {color: #EE7401;}
+.text-amba-grey-light {color: #E6EDEF;}
+.text-amba-grey-mid {color: #A4B3B7;}
+.text-amba-blue-dark {color: #1C2E36;}
+
+/* --- Background Colours --- */
+.bg-amba-white {background-color: #ffffff;}
+.bg-amba-green {background-color: #00888A;}
+.bg-amba-red {background-color: #8C0044;}
+.bg-amba-orange {background-color: #EE7401;}
+.bg-amba-grey-light {background-color: #E6EDEF;}
+.bg-amba-grey-mid {background-color: #A4B3B7;}
+.bg-amba-blue-dark {background-color: #1C2E36;}
+
+/* --- Text in Background Colours Blocks --- */
+.bg-amba-white h1,
+.bg-amba-white h2,
+.bg-amba-white h3,
+.bg-amba-white h4,
+.bg-amba-white h5,
+.bg-amba-white h6,
+.bg-amba-white p {color: #000000;}
+
+.bg-amba-green h1,.bg-amba-green h2,.bg-amba-green h3,.bg-amba-green h4,.bg-amba-green h5,.bg-amba-green h6,.bg-amba-green p,
+.bg-amba-red h1,.bg-amba-red h2,.bg-amba-red h3,.bg-amba-red h4,.bg-amba-red h5,.bg-amba-red h6,.bg-amba-red p,
+.bg-amba-green h1,.bg-amba-green h2,.bg-amba-green h3,.bg-amba-green h4,.bg-amba-green h5,.bg-amba-green h6,.bg-amba-green p {color: #ffffff;}
+
+
+.bg-amba-green {background-color: #00888A;}
+.bg-amba-red {background-color: #8C0044;}
+.bg-amba-orange {background-color: #EE7401;}
+.bg-amba-grey-light {background-color: #E6EDEF;}
+.bg-amba-grey-mid {background-color: #A4B3B7;}
+.bg-amba-blue-dark {background-color: #1C2E36;}
+
+
+/* --- Text Fonts --- */
+
+:root {
+font-size: 16px;
+}
+
+h1,h2,h3,h4,h5 {font-family: 'Nunito Sans', sans-serif; /* replace with Avenir when available */}
+h6,p {font-family: 'Open Sans', sans-serif;}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  line-height: 1.2;
+  color: inherit;
+  font-style: normal;
+}
+
+h1 {
+	font-size: 3.2rem;
+	font-weight: 800;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h5 {
+ font-size: 0.8125rem;
+ font-weight: 600;
+ text-transform: uppercase;
+}
+
+h6 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+}
+
+p {
+  font-size: 1.0rem;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+p.link {
+	margin-bottom: 0.2rem;
+}
+
+p.body {
+  font-size: 1.0rem;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+a {
+  color: #EE7401;
+}
+
+a:hover {
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+
+/* ---- Fonts -----
+
+h1 = 64px = 4rem
+h2 = 36px = 2.25rem
+h3 = 28px = 1.75rem
+h4 = 24px = 1.5rem
+h5 = 24px = 1.5rem
+h6 = 13px = 0.8125rem
+p = 18px = 1.125rem
+body = 18px = 1.125rem
+
+Fonts available:
+Nunito+Sans:300,600,800
+Open+Sans:400,700
+
+*/
+
+
+
+
