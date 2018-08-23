@@ -53,7 +53,44 @@
   margin-bottom: 1.4rem;
 }
 
+/* Card Colours */
+
 .card-bg-white {
   background-color: #ffffff;
 }
 
+/* Contact Card */
+
+.card-contact {
+  margin: 0 auto;
+  border-radius: 0.2rem;
+  margin-top: 70px;
+}
+
+.card-contact p {
+  margin-bottom: 0.20rem;
+}
+
+.card-contact-portrait {
+  max-width: 400px;
+}
+
+.card-contact-landscape {
+  max-width: 500px;
+}
+
+.card-contact-body {
+  position: relative;
+}
+
+.contact-card-mugshot {
+  width: 120px;
+  height: 120px;
+  background: url(../img/team/mugshot-amy-youngs-background.jpg) no-repeat center center;
+  background-size: cover;
+  border: 6px solid white;
+  border-radius: 100px;
+  position: relative;
+/*  top: -70px;*/
+  margin: 0 auto;
+}
