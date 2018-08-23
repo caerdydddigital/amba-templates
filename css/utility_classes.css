@@ -1,5 +1,10 @@
 /* Utility Classes */
 
+.amba-strip-block {
+	padding: 1rem;
+}
+
+
 .amba-content-block{
 	padding-top: 3.2rem;
 	padding-bottom: 3.2rem;
