@@ -37,6 +37,10 @@
 	}
 }
 
+.text-left {text-align: left !important;}
+.text-right {text-align: right !important;}
+.text-center {text-align: center !important;}
+
 .background-image-1{}
 .background-image-2{}
 
