@@ -1,5 +1,63 @@
 /* Utility Classes */
 
+
+/* ------- */
+
+.breadcrumb {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 1rem;
+	margin-bottom: 0;
+	list-style: none;
+	background-color: #E6EDEF; /* AMBA Grey Light */
+	border-radius: .20rem;
+  font-size: 0.8rem;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+  padding-left: .5rem;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  display: inline-block;
+  padding-right: .5rem;
+  color: #6c757d;
+  content: "/";
+}
+
+/* ------- */
+
+.blockquote {
+  margin-bottom: 1rem;
+}
+
+.blockquote p {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.mb-0, .my-0 {
+  margin-bottom: 0!important;
+}
+
+.blockquote-footer {
+  display: block;
+  font-size: 80%;
+  color: #6c757d;
+}
+
+/* ------- */
+
+
+.amba-article-title h1 {
+	color: #00888A;
+}
+
+
+/* ------- */
+
 .amba-strip-block {
 	padding: 1rem;
 }
@@ -18,7 +76,14 @@
 .amba-content-block-deep{
 	padding-top: 5.2rem;
 	padding-bottom: 5.2rem;
-	color: #ffffff;
+}
+
+.amba-content-block-shift-left {
+	margin-right: 25%;
+}
+
+.amba-content-block-shift-right {
+	margin-left: 25%;
 }
 
 .amba-container-block {
