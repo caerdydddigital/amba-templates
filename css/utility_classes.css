@@ -62,11 +62,18 @@
 	padding: 1rem;
 }
 
+.amba-footer-block{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
 
 .amba-content-block{
 	padding-top: 3.2rem;
 	padding-bottom: 3.2rem;
 }
+
+
 
 .amba-content-block-shallow {
 	padding-top: 1.8rem;
