@@ -1,7 +1,17 @@
 /* Images */
 
 img {
-	border-radius: 0.20rem;
+	border-radius: 0.15rem;
+}
+
+.amba-block-hug-right img {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.amba-block-hug-left img {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
 }
 
 .img-fluid {

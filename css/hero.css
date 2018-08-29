@@ -5,7 +5,7 @@
 	display: grid;
 	margin: 0;
 	height: 80vh;
-	max-height: 320px;
+	max-height: 420px;
 	text-align: center;
 	place-items: center center;
 }
@@ -13,7 +13,7 @@
 @media (min-width: 576px) {
   .amba-hero {
     padding: 4rem 2rem;
-    max-height: 420px;
+    max-height: 540px;
   }
 }
 
