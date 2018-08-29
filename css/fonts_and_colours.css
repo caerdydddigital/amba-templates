@@ -25,7 +25,7 @@
 .bg-amba-white h4,
 .bg-amba-white h5,
 .bg-amba-white h6,
-.bg-amba-white p {color: #000000;}
+.bg-amba-white p {color: #1C2E36;}
 
 .bg-amba-green h1,.bg-amba-green h2,.bg-amba-green h3,.bg-amba-green h4,.bg-amba-green h5,.bg-amba-green h6,.bg-amba-green p,
 .bg-amba-red h1,.bg-amba-red h2,.bg-amba-red h3,.bg-amba-red h4,.bg-amba-red h5,.bg-amba-red h6,.bg-amba-red p,
@@ -94,7 +94,7 @@ h4 {
 
 h5 {
  font-size: 1.0125rem;
- font-weight: 600;
+ font-weight: 700;
  text-transform: uppercase;
 }
 
@@ -105,17 +105,16 @@ h6 {
   margin-bottom: 1.2rem;
 }
 
-p {
+p, p a {
   font-size: 1.0rem;
   font-weight: 400;
   margin-top: 0;
 }
 
-p a,
 footer p,
 ol p,
 ol a {
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   font-weight: 400;
   margin-top: 0;
 }
@@ -124,8 +123,8 @@ footer p {
   margin-bottom: 0;
 }
 
-.amba-footer-block p,
-.amba-footer-block a {
+.amba-footer-slim p,
+.amba-footer-slim a {
   font-size: 0.8rem;
   font-weight: 400;
   margin: 0;
@@ -149,6 +148,10 @@ a:hover,
 .link a:hover {
   color: inherit;
   opacity: 0.9;
+}
+
+footer ul {
+  margin-bottom: 0;
 }
 
 footer ol,
