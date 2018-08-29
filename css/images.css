@@ -23,8 +23,13 @@ img {
 }
 
 .amba-content-block-bg-image-2 {
-  	background: url("../img/img-people-2.jpeg") no-repeat bottom center;
-  	background-size: cover;
+	background: url("../img/img-people-2.jpeg") no-repeat bottom center;
+	background-size: cover;
+}
+
+.amba-content-block-bg-image-3 {
+	background: url("../img/img-people-3.jpg") no-repeat bottom center;
+	background-size: cover;
 }
 
 /* ------- */
