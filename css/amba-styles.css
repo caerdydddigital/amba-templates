@@ -29,11 +29,13 @@
     color: #1C2E36; }
 
 .bg-amba-red .amba-block-title,
-.bg-amba-green .amba-block-title {
+.bg-amba-green .amba-block-title,
+.bg-amba-dark-grey .amba-block-title {
   color: #fff; }
 
 .bg-amba-red .amba-block-description,
-.bg-amba-green .amba-block-description {
+.bg-amba-green .amba-block-description,
+.bg-amba-dark-grey .amba-block-description {
   color: #fff; }
 
 .amba-article-title h1 {
@@ -63,9 +65,9 @@ footer p,
 footer a {
   font-family: 'Open Sans', sans-serif; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 1.2rem; }
 
 h1, h2, h3, h4, h5, h6 {
   /*  font-family: inherit;*/
@@ -102,8 +104,7 @@ h6 {
 
 p, p a {
   font-size: 1.0rem;
-  font-weight: 400;
-  margin-top: 0; }
+  font-weight: 400; }
 
 p.link {
   margin-bottom: 0.2rem; }
@@ -205,7 +206,12 @@ a:hover,
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.15rem;
+  color: #fff;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+
+.btn:hover {
+  color: #fff;
+  opacity: 0.9; }
 
 @media screen and (prefers-reduced-motion: reduce) {
   .btn {
@@ -228,6 +234,28 @@ a:hover,
 
 .btn-block + .btn-block {
   margin-top: 0.5rem; }
+
+.card {
+  margin-bottom: 2rem; }
+
+.card-bg-white {
+  background-color: #fff;
+  min-height: 25rem;
+  position: relative; }
+  @media (min-width: 768px) {
+    .card-bg-white {
+      min-height: 21rem; } }
+  @media (min-width: 992px) {
+    .card-bg-white {
+      min-height: 23.875rem; } }
+  .card-bg-white .card-body {
+    padding: 1.4rem; }
+    .card-bg-white .card-body .btn {
+      margin-bottom: 0;
+      position: absolute;
+      bottom: 1.4rem;
+      left: 1.4rem;
+      right: 1.4rem; }
 
 .breadcrumb {
   display: -ms-flexbox;

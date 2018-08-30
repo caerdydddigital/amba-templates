@@ -9,6 +9,20 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/_master-head.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/_master-head.html",
+		"oF": 0
+		},
+	"\/_master-nav.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/_master-nav.html",
+		"oF": 0
+		},
 	"\/business-schools-accreditation.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -16,9 +30,23 @@
 		"oAP": "\/business-schools-accreditation.html",
 		"oF": 0
 		},
+	"\/business-schools-accreditation.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/business-schools-accreditation.html",
+		"oF": 0
+		},
 	"\/business-schools.html": {
 		"cB": 0,
 		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/business-schools.html",
+		"oF": 0
+		},
+	"\/business-schools.kit": {
+		"cB": 0,
+		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/business-schools.html",
 		"oF": 0
@@ -152,6 +180,90 @@
 		"oAP": "\/css\/utility_classes-min-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/html_partials\/content-blocks\/_core-accreditation.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_core-accreditation.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_section-accreditation.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_section-accreditation.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_section-adn.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_section-adn.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_section-ambition-for-business.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_section-ambition-for-business.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_section-events.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_section-events.html",
+		"oF": 0
+		},
+	"\/html_partials\/hero-blocks\/_accreditation-home.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/html_partials\/hero-blocks\/_accreditation-home.html",
+		"oF": 0
+		},
+	"\/html_partials\/hero-blocks\/_accreditation-home.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/hero-blocks\/_accreditation-home.html",
+		"oF": 0
+		},
+	"\/html_partials\/hero-blocks\/_adn-home.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/html_partials\/hero-blocks\/_adn-home.html",
+		"oF": 0
+		},
+	"\/html_partials\/hero-blocks\/_business-schools-home.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/html_partials\/hero-blocks\/_business-schools-home.html",
+		"oF": 0
+		},
+	"\/html_partials\/hero-blocks\/_business-schools.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/hero-blocks\/_business-schools.html",
+		"oF": 0
+		},
+	"\/html_partials\/hero-blocks\/_events-home.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/html_partials\/hero-blocks\/_events-home.html",
+		"oF": 0
+		},
+	"\/html_partials\/sitewide\/_footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/sitewide\/_footer.html",
+		"oF": 0
 		},
 	"\/img\/ambition-mag\/img-bg-1.jpeg": {
 		"ft": 16384,
@@ -2316,6 +2428,13 @@
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/section-events.html.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/section-events.html.html",
+		"oF": 0
 		},
 	"\/starter-template.html": {
 		"cB": 0,

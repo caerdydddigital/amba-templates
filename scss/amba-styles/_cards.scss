@@ -1,1 +1,27 @@
-// Amba Buttons
+// Cards
+
+.card {
+	margin-bottom: 2rem;
+}
+
+.card-bg-white {
+	background-color: $amba-white;
+	min-height: 25rem;
+	@media (min-width: $medium-screen) {
+		min-height: 21rem;
+	}
+	@media (min-width: $large-screen) {
+		min-height: 23.875rem;
+	}
+	position: relative;
+	.card-body {
+		padding: 1.4rem;
+		.btn {
+			margin-bottom: 0;
+			position: absolute;
+			bottom: 1.4rem;
+			left: 1.4rem;
+			right: 1.4rem;
+		}
+	}
+}
