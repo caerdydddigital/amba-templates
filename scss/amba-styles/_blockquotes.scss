@@ -1,0 +1,20 @@
+// Amba Blockquotes
+
+.blockquote {
+  margin-bottom: 1rem;
+}
+
+.blockquote p {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.mb-0, .my-0 {
+  margin-bottom: 0!important;
+}
+
+.blockquote-footer {
+  display: block;
+  font-size: 80%;
+  color: #6c757d;
+}

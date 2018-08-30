@@ -1,0 +1,114 @@
+// AMBA Fonts
+
+/* --- Text Fonts --- */
+
+:root {
+font-size: 16px;
+}
+
+h1,h2,h3,h4,h5, a {font-family: 'Nunito Sans', sans-serif;} /* replace with Avenir when available */
+h6,p, p a, footer p, footer a {font-family: 'Open Sans', sans-serif;}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+/*  font-family: inherit;*/
+  line-height: 1.2;
+  color: inherit;
+  font-style: normal;
+}
+
+h1 {
+	font-size: 3.0rem;
+	font-weight: 800;
+}
+
+h2 {
+  font-size: 2.05rem;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.55rem;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+h5 {
+ font-size: 1.0125rem;
+ font-weight: 700;
+ text-transform: uppercase;
+}
+
+h6 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+}
+
+p, p a {
+  font-size: 1.0rem;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+footer p,
+ol p,
+ol a {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+.amba-footer-slim p,
+.amba-footer-slim a {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+p.link {
+	margin-bottom: 0.2rem;
+}
+
+p.body {
+  font-size: 1.0rem;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+a {
+  color: #EE7401;
+}
+
+a:hover,
+.link a:hover {
+  color: inherit;
+  opacity: 0.9;
+}
+
+footer ul {
+  margin-bottom: 0;
+}
+
+footer ol,
+footer ul {
+  padding-inline-start: 0;
+}
+
+footer a {
+  color: #fff;
+}
