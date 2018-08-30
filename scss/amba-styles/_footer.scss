@@ -1,0 +1,42 @@
+// Footer
+
+footer {
+	h5,p,a {
+		color: $amba-white;
+	}
+	p {
+		margin-bottom: 0.2rem;
+	}
+	ul, ol {
+		margin-bottom: 0;
+		padding-inline-start: 0;
+	}
+	p, p a, ol p, ol a {
+	  font-size: 0.9rem;
+	  font-weight: 400;
+	  margin-top: 0;
+	}
+	.amba-contact-details {
+		margin-bottom: 1.2rem;
+	}
+}
+
+.amba-footer-primary {
+	background-color: $amba-green;
+	padding-top: 2.0rem;
+	padding-bottom: 2.0rem;
+	@media (min-width: $medium-screen) {
+		padding-top: 5.2rem;
+		padding-bottom: 5.2rem;
+	}
+}
+
+.amba-footer-secondary {
+	background-color: $amba-dark-grey;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+	p {
+		margin-bottom: 0;
+	}
+}
+

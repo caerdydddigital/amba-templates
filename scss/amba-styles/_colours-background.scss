@@ -1,0 +1,30 @@
+// AMBA Background Colours
+
+.bg-amba-green {background-color: $amba-green;}
+.bg-amba-red {background-color: $amba-red;}
+.bg-amba-orange {background-color: $amba-orange;}
+.bg-amba-light-grey {background-color: $amba-light-grey;}
+.bg-amba-mid-grey {background-color: $amb-mid-grey;}
+.bg-amba-dark-grey {background-color: $amba-dark-grey;}
+
+/* -- Block Colours --*/
+
+.bg-amba-white {
+	background-color: $amba-white;
+	.amba-block-title {
+		color:$amba-green;
+	}
+	.amba-block-description {
+		color:$amba-dark-grey;
+	}
+}
+
+.bg-amba-red,
+.bg-amba-green {
+	.amba-block-title {
+		color:$amba-white;
+	}
+	.amba-block-description {
+		color:$amba-white;
+	}
+}
