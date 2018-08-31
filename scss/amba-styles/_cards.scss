@@ -1,7 +1,11 @@
 // Cards
 
 .card {
-	margin-bottom: 2rem;
+  border-radius: 0.1rem;
+	margin-bottom: $margin-xs;
+	@media (min-width: $medium-screen) {
+		margin-bottom: $margin-md;
+	}
 }
 
 .card-bg-white {
@@ -15,7 +19,7 @@
 	}
 	position: relative;
 	.card-body {
-		padding: 1.4rem;
+		padding: $padding-xs;
 		.btn {
 			margin-bottom: 0;
 			position: absolute;
@@ -25,3 +29,91 @@
 		}
 	}
 }
+
+
+/* Cards */
+
+.card-body .btn {
+  margin: 1rem 0 0 0;
+}
+
+.card-body h4 {
+  color: #00888A;
+}
+
+.card-body {
+  padding: 1.4rem;
+}
+
+.card-tight {
+  padding: 0;
+  margin-bottom: 1.4rem;
+}
+
+.card-img-top {
+  border-radius: 0.1rem 0.1rem 0 0;
+  margin-bottom: 0;
+}
+
+/* Card Colours */
+
+.card-bg-white {
+  background-color: #ffffff;
+  color: #1C2E36;
+}
+
+.card-bg-white .card-title  {
+  color: #1C2E36;
+}
+
+/* Contact Card */
+
+.card-contact {
+  margin: 0 auto;
+  border-radius: 0.2rem;
+  padding: $padding-sm;
+  min-height: 0;
+	&.card-contact-portrait {
+		max-width: 400px;
+		.card-contact-mugshot {
+		  margin: 0 auto $margin-sm auto;
+		}
+	}
+	&.card-contact-landscape {
+  	max-width: 500px;
+  	.card-contact-mugshot {
+		  margin: 0 auto 0 auto;
+  	}
+  	.card-contact-body {
+  		h5 {
+  			margin-bottom: 0;
+  		}
+  	}
+	}
+	.card-contact-mugshot {
+	  width: 120px;
+	  height: 120px;
+	  background-position: center;
+	  background-size: cover;
+	  border: 6px solid white;
+	  border-radius: 100px;
+	  position: relative;
+	/*  top: -70px;*/
+	}
+	.card-contact-body {
+		h4 {
+			color: $amba-green;
+			margin-bottom: $margin-xs;
+		}
+		h5 {
+			margin-bottom: $margin-sm;
+		}
+		p {
+			margin-bottom: $margin-xs;
+		}
+		a {
+			color: $amba-dark-grey;
+		}
+	}
+}
+

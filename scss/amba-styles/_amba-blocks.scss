@@ -63,10 +63,21 @@
 .amba-block-nested {
 	border-radius: 0.2rem;
 	margin-top: $margin-lg;
-	padding: $padding-xl;
+	padding: $padding-xs;
+	@media (min-width: $medium-screen) {
+		padding: $padding-lg;
+	}
 	.amba-block-title {
 		color: $amba-green;
 		margin-bottom: $margin-sm;
+	}
+	.card {
+		margin-bottom: 0;
+	}
+	.card-body {
+		p, a {
+			margin-bottom: 0;
+		}
 	}
 }
 

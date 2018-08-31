@@ -37,6 +37,20 @@
 		"oAP": "\/business-schools-accreditation.html",
 		"oF": 0
 		},
+	"\/business-schools-adn.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/business-schools-adn.html",
+		"oF": 0
+		},
+	"\/business-schools-adn.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/business-schools-adn.html",
+		"oF": 0
+		},
 	"\/business-schools.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -121,6 +135,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/buttons_and_cards-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/buttons_and_cards-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/buttons_and_cards.css": {
 		"aP": 1,
 		"bl": 0,
@@ -181,11 +205,32 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/html_partials\/components\/_card-contact-landscape.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/components\/_card-contact-landscape.html",
+		"oF": 0
+		},
+	"\/html_partials\/components\/_card-contact-portrait.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/components\/_card-contact-portrait.html",
+		"oF": 0
+		},
 	"\/html_partials\/content-blocks\/_core-accreditation.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/html_partials\/content-blocks\/_core-accreditation.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_core-adn.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_core-adn.html",
 		"oF": 0
 		},
 	"\/html_partials\/content-blocks\/_section-accreditation.kit": {
@@ -233,7 +278,7 @@
 	"\/html_partials\/hero-blocks\/_adn-home.kit": {
 		"cB": 0,
 		"ft": 2048,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/html_partials\/hero-blocks\/_adn-home.html",
 		"oF": 0
 		},
@@ -258,11 +303,25 @@
 		"oAP": "\/html_partials\/hero-blocks\/_events-home.html",
 		"oF": 0
 		},
+	"\/html_partials\/hero-blocks\/_page-hero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/hero-blocks\/_page-hero.html",
+		"oF": 0
+		},
 	"\/html_partials\/sitewide\/_footer.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/html_partials\/sitewide\/_footer.html",
+		"oF": 0
+		},
+	"\/html_partials\/sitewide\/_section-enquiry.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/sitewide\/_section-enquiry.html",
 		"oF": 0
 		},
 	"\/img\/ambition-mag\/img-bg-1.jpeg": {
@@ -1048,6 +1107,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/team\/mugshot-jack-sparrow-background.jpg": {
+		"ft": 16384,
+		"iS": 4970,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/team\/mugshot-jack-sparrow-background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/temp\/img-dummy-grey.jpg": {
 		"ft": 16384,
 		"iS": 1787,
@@ -1223,6 +1293,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/amba-styles\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/amba-styles\/_card-image-variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/amba-styles\/_card-image-variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
