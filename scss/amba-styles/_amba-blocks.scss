@@ -21,8 +21,8 @@
 /* -- Block Depth --*/
 
 .amba-block-slim {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: $padding-xs;
+  padding-bottom: $padding-xs;
   p,
   a {
   	color: $amba-white;
@@ -34,8 +34,8 @@
 
 
 .amba-block-shallow {
-	padding-top: 1.6rem;
-	padding-bottom: 1.6rem;
+	padding-top: $padding-sm;
+	padding-bottom: $padding-sm;
 	@media (min-width: $large-screen) {
 		padding-top: 2.8rem;
 		padding-bottom: 2.8rem;	
@@ -43,20 +43,41 @@
 }
 
 .amba-block-standard {
-	padding-top: 2.0rem;
-	padding-bottom: 2.0rem;
+	padding-top: $padding-lg;
+	padding-bottom: $padding-lg;
 	@media (min-width: $medium-screen) {
-		padding-top: 5.2rem;
-		padding-bottom: 5.2rem;
+		padding-top: $padding-xl;
+		padding-bottom: $padding-xl;
 	}
 }
 
 .amba-block-deep {
-	padding-top: 5.2rem;
-	padding-bottom: 5.2rem;
+	padding-top: $padding-xl;
+	padding-bottom: $padding-xl;
 	@media (min-width: $medium-screen) {
-		padding-top: 8.0rem;
-		padding-bottom: 8.0rem;
+		padding-top: $padding-xxl;
+		padding-bottom: $padding-xxl;
+	}
+}
+
+.amba-block-nested {
+	border-radius: 0.2rem;
+	margin-top: $margin-lg;
+	padding: $padding-xl;
+	.amba-block-title {
+		color: $amba-green;
+		margin-bottom: $margin-sm;
+	}
+}
+
+/* -- Bespoke List Elements --*/
+
+.amba-large-icon-list {
+	margin-top: $margin-xs;
+	margin-bottom: $margin-xs;
+	h4 {
+		color: $amba-green;
+		margin-bottom: $margin-xs
 	}
 }
 
