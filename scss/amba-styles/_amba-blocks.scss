@@ -65,7 +65,7 @@
 	margin-top: $margin-lg;
 	padding: $padding-xs;
 	@media (min-width: $medium-screen) {
-		padding: $padding-lg;
+		padding: $padding-sm;
 	}
 	.amba-block-title {
 		color: $amba-green;
@@ -75,9 +75,7 @@
 		margin-bottom: 0;
 	}
 	.card-body {
-		p, a {
-			margin-bottom: 0;
-		}
+		margin-bottom: 0;
 	}
 }
 

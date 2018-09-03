@@ -97,10 +97,9 @@ h5 {
   text-transform: uppercase; }
 
 h6 {
-  font-size: 1.125rem;
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 1.2rem; }
+  font-size: 1.0rem;
+  font-weight: 600;
+  margin-bottom: 0; }
 
 p, p a {
   font-size: 1.0rem;
@@ -514,13 +513,13 @@ a:hover,
   padding: 1rem; }
   @media (min-width: 768px) {
     .amba-block-nested {
-      padding: 4rem; } }
+      padding: 2rem; } }
   .amba-block-nested .amba-block-title {
     color: #00888A;
     margin-bottom: 1rem; }
   .amba-block-nested .card {
     margin-bottom: 0; }
-  .amba-block-nested .card-body p, .amba-block-nested .card-body a {
+  .amba-block-nested .card-body {
     margin-bottom: 0; }
 
 /* -- Bespoke List Elements --*/
