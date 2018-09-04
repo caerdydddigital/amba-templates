@@ -23,10 +23,9 @@ footer a {
 	font-family: 'Open Sans', sans-serif;
 }
 
-
 h1, h2, h3, h4, h5, h6, p {
   margin-top: 0;
-  margin-bottom: 1.2rem;
+  margin-bottom: $margin-sm;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,40 +36,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 2.6rem;
+	font-size: $font-size-xxl;
 	font-weight: 800;
 }
 
 h2 {
-  font-size: 2.05rem;
+  font-size: $font-size-xl;
   font-weight: 800;
 }
 
 h3 {
-  font-size: 1.55rem;
+  font-size: $font-size-lg;
   font-weight: 600;
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-size: $font-size-md;
   font-weight: 400;
 }
 
 h5 {
- font-size: 1.0125rem;
+ font-size: $font-size-sm;
  font-weight: 700;
  text-transform: uppercase;
 }
 
 h6 {
-  font-size: 1.0rem;
+  font-size: $font-size-xs;
   font-weight: 600;
-  // margin-top: 0;
   margin-bottom: 0;
 }
 
 p, p a {
-  font-size: 1.0rem;
+  font-size: $font-size-xs;
   font-weight: 400;
 }
 

@@ -49,6 +49,13 @@
 		padding-top: $padding-xl;
 		padding-bottom: $padding-xl;
 	}
+	.amba-block-header {
+		margin-bottom: $margin-lg;
+		@media (min-width: $medium-screen) {
+			margin-bottom: $margin-xl;
+			margin-bottom: $margin-xl;
+		}
+	}
 }
 
 .amba-block-deep {

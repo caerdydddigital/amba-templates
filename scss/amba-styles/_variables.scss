@@ -23,21 +23,24 @@ $amba-green: #00888A;
 $amba-orange: #EE7401;
 $amba-red: #8C0044;
 $amba-light-grey: #E6EDEF;
-$amb-mid-grey: #A4B3B7;
+$amba-mid-grey: #A4B3B7;
 $amba-dark-grey: #1C2E36;
+$amba-off-white: #fcfdfd;
 
 
-$primary:       $amba-orange !default;
-$secondary:     $amba-red !default;
-$success:       $amba-green !default;
-$warning:       $amba-red !default;
-$danger:        $amba-red !default;
-$light:         $amba-light-grey !default;
-$dark:          $amba-dark-grey !default;
+// $primary:       $amba-orange !default;
+// $secondary:     $amba-red !default;
+// $success:       $amba-green !default;
+// $warning:       $amba-red !default;
+// $danger:        $amba-red !default;
+// $light:         $amba-light-grey !default;
+// $mid:         	$amba-mid-grey !default;
+// $dark:          $amba-dark-grey !default;
 
 
 // Margins
 
+$margin-xxs: 0.2rem;
 $margin-xs: 0.2rem;
 $margin-sm: 1.0rem;
 $margin-md: 2.0rem;
@@ -47,12 +50,31 @@ $margin-xl: 4.0rem;
 // Padding
 
 $padding-xxs: 0.6rem;
-$padding-xs: 1.0rem;
+$padding-xs: 1.2rem;
 $padding-sm: 2.0rem;
 $padding-md: 3.0rem;
 $padding-lg: 4.0rem;
 $padding-xl: 5.0rem;
 $padding-xxl: 8.0rem;
+
+// Font Sizes
+
+$font-size-xxs: 0.8rem;
+$font-size-xs: 1.0rem;
+$font-size-sm: 1.0125rem;
+$font-size-md: 1.3rem;
+$font-size-lg: 1.55rem;
+$font-size-xl: 2.05rem;
+$font-size-xxl: 2.6rem;
+$font-size-xxxl: 5.0rem;
+
+
+// Border-Radius
+
+$radius-xs: 0.1rem;
+$radius-sm: 0.2rem;
+$radius-md: 0.3rem;
+$radius-lg: 0.4rem;
 
 
 // Fonts

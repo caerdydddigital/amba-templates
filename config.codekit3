@@ -219,6 +219,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/html_partials\/components\/_card-contact-enquiry.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/components\/_card-contact-enquiry.html",
+		"oF": 0
+		},
 	"\/html_partials\/components\/_card-contact-landscape.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -700,6 +707,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/amba-collection\/img-md-017.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-person-lg-001.jpeg": {
+		"ft": 16384,
+		"iS": 56591,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-person-lg-001.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

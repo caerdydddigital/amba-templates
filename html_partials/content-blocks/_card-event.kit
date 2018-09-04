@@ -1,10 +1,20 @@
 <!-- Event Card -->
-<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+<div class="col-12 <!-- $card-event-col -->">
   <div class="card card-event card-bg-white">
-    <img class="card-img-top img-fluid" src="<!-- $card-top-img -->" alt="Card image cap">
+    <div class="card-img-top img-fluid <!-- $event-image-top -->" alt="Card image cap"></div>
     <div class="card-body">
-      <p class="card-title"><!-- $event-title --></p>
-      <a href="#" class="btn btn-primary">View event</a>
+      <h6 class="card-event-title"><!-- $event-title --></h6>
+      <p class="card-event-location">
+      	<i class="fas fa-map-marker-alt"></i>
+      	<!-- $event-location --></p>
+      <p class="card-event-date">
+      	<i class="fas fa-calendar-alt"></i>
+      	<!-- $event-date --></p>
+      <p class="card-event-description"><!-- $event-description --></p>
     </div>
+    <div class="card-footer">
+    	<a href="#" class="btn btn-primary">View event</a>   	
+    </div>
+
   </div>
 </div>
