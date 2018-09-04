@@ -2,14 +2,19 @@
 
 .card {
   border-radius: 0.1rem;
-	margin-bottom: $margin-xs;
+	margin-bottom: $margin-sm;
 	@media (min-width: $medium-screen) {
 		margin-bottom: $margin-md;
 	}
 }
 
-.card-bg-white {
-	background-color: $amba-white;
+.card-event {
+	.card-body {
+		min-height: 10rem;
+	}
+}
+
+.card-temp {
 	min-height: 25rem;
 	@media (min-width: $medium-screen) {
 		min-height: 21rem;
@@ -17,15 +22,20 @@
 	@media (min-width: $large-screen) {
 		min-height: 23.875rem;
 	}
+}
+
+.card-bg-white {
+	background-color: $amba-white;
 	position: relative;
 	.card-body {
 		padding: $padding-xs;
+		padding-bottom: 0;
 		.btn {
 			margin-bottom: 0;
 			position: absolute;
-			bottom: 1.4rem;
-			left: 1.4rem;
-			right: 1.4rem;
+			bottom: $padding-xs;
+			left: $padding-xs;
+			right: $padding-xs;
 		}
 	}
 }
@@ -71,7 +81,7 @@
 .card-contact {
   margin: 0 auto;
   border-radius: 0.2rem;
-  padding: $padding-sm;
+  padding: $padding-sm $padding-xs;
   min-height: 0;
 	&.card-contact-portrait {
 		max-width: 400px;

@@ -33,9 +33,15 @@
 .bg-amba-dark-grey .amba-block-title {
   color: #fff; }
 
-.bg-amba-red .amba-block-description,
+.bg-amba-red .amba-block-description, .bg-amba-red p, .bg-amba-red a, .bg-amba-red li,
 .bg-amba-green .amba-block-description,
-.bg-amba-dark-grey .amba-block-description {
+.bg-amba-green p,
+.bg-amba-green a,
+.bg-amba-green li,
+.bg-amba-dark-grey .amba-block-description,
+.bg-amba-dark-grey p,
+.bg-amba-dark-grey a,
+.bg-amba-dark-grey li {
   color: #fff; }
 
 .amba-article-title h1 {
@@ -142,15 +148,6 @@ a:hover,
   background-repeat: no-repeat;
   background-size: cover; }
 
-.img-bg-image-1 {
-  background-image: url("../img/people/img-people-highfive_lg.jpg"); }
-
-.img-bg-image-2 {
-  background-image: url("../img/people/img-people-commercial.jpeg"); }
-
-.img-bg-image-3 {
-  background-image: url("../img/people/img-people-postits.jpeg"); }
-
 @media (min-width: 768px) {
   .img-holder {
     width: 100%;
@@ -159,69 +156,117 @@ a:hover,
     background-repeat: no-repeat;
     background-size: cover; } }
 
+/* --- Background Images --- */
+.amba-content-bg-001 {
+  background-image: url("../img/amba-collection/img-md-001.jpg"); }
+
+.amba-content-bg-002 {
+  background-image: url("../img/amba-collection/img-md-002.jpg"); }
+
+.amba-content-bg-003 {
+  background-image: url("../img/amba-collection/img-md-003.jpg"); }
+
+.amba-content-bg-004 {
+  background-image: url("../img/amba-collection/img-md-004.jpg"); }
+
+.amba-content-bg-005 {
+  background-image: url("../img/amba-collection/img-md-005.jpg"); }
+
+.amba-content-bg-006 {
+  background-image: url("../img/amba-collection/img-md-006.jpg"); }
+
+.amba-content-bg-007 {
+  background-image: url("../img/amba-collection/img-md-007.jpg"); }
+
+.amba-content-bg-008 {
+  background-image: url("../img/amba-collection/img-md-008.jpg"); }
+
+.amba-content-bg-009 {
+  background-image: url("../img/amba-collection/img-md-009.jpg"); }
+
+.amba-content-bg-010 {
+  background-image: url("../img/amba-collection/img-md-010.jpg"); }
+
+.amba-content-bg-011 {
+  background-image: url("../img/amba-collection/img-md-011.jpg"); }
+
+.amba-content-bg-012 {
+  background-image: url("../img/amba-collection/img-md-012.jpg"); }
+
+.amba-content-bg-013 {
+  background-image: url("../img/amba-collection/img-md-013.jpg"); }
+
+.amba-content-bg-014 {
+  background-image: url("../img/amba-collection/img-md-014.jpg"); }
+
+.amba-content-bg-015 {
+  background-image: url("../img/amba-collection/img-md-015.jpg"); }
+
+.amba-content-bg-016 {
+  background-image: url("../img/amba-collection/img-md-016.jpg"); }
+
+.amba-content-bg-017 {
+  background-image: url("../img/amba-collection/img-md-017.jpg"); }
+
+/* --- ---- */
+.amba-hero-bg-001 {
+  background-image: url("../img/amba-collection/img-xl-001.jpg"); }
+
+.amba-hero-bg-002 {
+  background-image: url("../img/amba-collection/img-xl-002.jpg"); }
+
+.amba-hero-bg-003 {
+  background-image: url("../img/amba-collection/img-xl-003.jpg"); }
+
+.amba-hero-bg-004 {
+  background-image: url("../img/amba-collection/img-xl-004.jpg"); }
+
+.amba-hero-bg-005 {
+  background-image: url("../img/amba-collection/img-xl-005.jpg"); }
+
+.amba-hero-bg-006 {
+  background-image: url("../img/amba-collection/img-xl-006.jpg"); }
+
+.amba-hero-bg-007 {
+  background-image: url("../img/amba-collection/img-xl-007.jpg"); }
+
+.amba-hero-bg-008 {
+  background-image: url("../img/amba-collection/img-xl-008.jpg"); }
+
+.amba-hero-bg-009 {
+  background-image: url("../img/amba-collection/img-xl-009.jpg"); }
+
+.amba-hero-bg-010 {
+  background-image: url("../img/amba-collection/img-xl-010.jpg"); }
+
+.amba-hero-bg-011 {
+  background-image: url("../img/amba-collection/img-xl-011.jpg"); }
+
+.amba-hero-bg-012 {
+  background-image: url("../img/amba-collection/img-xl-012.jpg"); }
+
+.amba-hero-bg-013 {
+  background-image: url("../img/amba-collection/img-xl-013.jpg"); }
+
+.amba-hero-bg-014 {
+  background-image: url("../img/amba-collection/img-xl-014.jpg"); }
+
+.amba-hero-bg-015 {
+  background-image: url("../img/amba-collection/img-xl-015.jpg"); }
+
+.amba-hero-bg-016 {
+  background-image: url("../img/amba-collection/img-xl-016.jpg"); }
+
+.amba-hero-bg-017 {
+  background-image: url("../img/amba-collection/img-xl-017.jpg"); }
+
 /* ------- */
-.bg-image-1 {
-  background: url("../img/img-people-1.jpeg") no-repeat bottom center;
-  background-size: cover; }
-
-.bg-image-2 {
-  background: url("../img/img-people-2.jpeg") no-repeat bottom center;
-  background-size: cover; }
-
-.bg-image-3 {
-  background: url("../img/img-people-3.jpg") no-repeat bottom center;
-  background-size: cover; }
-
-.bg-image-4 {
-  background: url("../img/img-people-2.jpeg") no-repeat bottom center;
-  background-size: cover; }
-
-.bg-image-5 {
-  background: url("../img/img-city-5.jpeg") no-repeat bottom center;
-  background-size: cover; }
-
-.bg-image-6 {
-  background: url("../img/img-city-4.jpeg") no-repeat bottom center;
-  background-size: cover; }
-
-/* --- Hero Images --- */
-.amba-hero-bg-1 {
-  background: url("../img/img-city-1.jpeg") no-repeat bottom center; }
-
-.amba-hero-bg-2 {
-  background: url("../img/img-city-2.jpeg") no-repeat bottom center; }
-
-.amba-hero-bg-3 {
-  background: url("../img/img-city-3.jpeg") no-repeat bottom center; }
-
-.amba-hero-bg-4 {
-  background: url("../img/img-city-4.jpeg") no-repeat bottom center; }
-
-.amba-hero-bg-5 {
-  background: url("../img/img-city-5.jpeg") no-repeat bottom center; }
-
-.amba-hero-bg-6 {
-  background: url("../img/img-city-6.jpeg") no-repeat bottom center; }
-
-.amba-hero-bg-7 {
-  background: url("../img/img-city-7.jpeg") no-repeat bottom center; }
-
-.amba-hero-bg-8 {
-  background: url("../img/img-city-8.jpeg") no-repeat bottom center; }
-
-.amba-hero-bg-9 {
-  background: url("../img/img-city-9.jpeg") no-repeat bottom center; }
-
-.amba-hero-bg-10 {
-  background: url("../img/img-city-10.jpeg") no-repeat bottom center; }
-
 /* ------- */
 .amba-full-width-img {
   width: 100%;
   height: 60vh;
   background-size: cover; }
 
-/* ------- */
 .btn {
   display: inline-block;
   text-align: center;
@@ -267,29 +312,35 @@ a:hover,
 
 .card {
   border-radius: 0.1rem;
-  margin-bottom: 0.2rem; }
+  margin-bottom: 1rem; }
   @media (min-width: 768px) {
     .card {
       margin-bottom: 2rem; } }
 
-.card-bg-white {
-  background-color: #fff;
-  min-height: 25rem;
-  position: relative; }
+.card-event .card-body {
+  min-height: 10rem; }
+
+.card-temp {
+  min-height: 25rem; }
   @media (min-width: 768px) {
-    .card-bg-white {
+    .card-temp {
       min-height: 21rem; } }
   @media (min-width: 992px) {
-    .card-bg-white {
+    .card-temp {
       min-height: 23.875rem; } }
+
+.card-bg-white {
+  background-color: #fff;
+  position: relative; }
   .card-bg-white .card-body {
-    padding: 1rem; }
+    padding: 1rem;
+    padding-bottom: 0; }
     .card-bg-white .card-body .btn {
       margin-bottom: 0;
       position: absolute;
-      bottom: 1.4rem;
-      left: 1.4rem;
-      right: 1.4rem; }
+      bottom: 1rem;
+      left: 1rem;
+      right: 1rem; }
 
 /* Cards */
 .card-body .btn {
@@ -321,7 +372,7 @@ a:hover,
 .card-contact {
   margin: 0 auto;
   border-radius: 0.2rem;
-  padding: 2rem;
+  padding: 2rem 1rem;
   min-height: 0; }
   .card-contact.card-contact-portrait {
     max-width: 400px; }
@@ -453,7 +504,9 @@ a:hover,
   height: 80vh;
   max-height: 420px;
   text-align: center;
-  place-items: center center; }
+  place-items: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 @media (min-width: 576px) {
   .amba-hero {
@@ -479,15 +532,6 @@ a:hover,
   .amba-hero-title {
     font-size: 2.6rem; } }
 
-.amba-hero-bg-1 {
-  background: url("../img/img-people-1.jpeg") no-repeat bottom center;
-  background-size: cover; }
-
-.amba-hero-bg-2 {
-  background: url("../img/img-city-1.jpeg") no-repeat bottom center;
-  background-size: cover; }
-
-/* ------- */
 .container-fluid {
   width: 100%;
   padding-left: 1rem;

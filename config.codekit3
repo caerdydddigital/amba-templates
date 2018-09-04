@@ -65,6 +65,13 @@
 		"oAP": "\/business-schools-events.html",
 		"oF": 0
 		},
+	"\/business-schools.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/business-schools.html",
+		"oF": 0
+		},
 	"\/business-schools.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -226,6 +233,13 @@
 		"oAP": "\/html_partials\/components\/_card-contact-portrait.html",
 		"oF": 0
 		},
+	"\/html_partials\/content-blocks\/_card-event.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_card-event.html",
+		"oF": 0
+		},
 	"\/html_partials\/content-blocks\/_core-accreditation.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -233,11 +247,18 @@
 		"oAP": "\/html_partials\/content-blocks\/_core-accreditation.html",
 		"oF": 0
 		},
-	"\/html_partials\/content-blocks\/_core-adn.kit": {
+	"\/html_partials\/content-blocks\/_core-amba-development-network.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/html_partials\/content-blocks\/_core-adn.html",
+		"oAP": "\/html_partials\/content-blocks\/_core-amba-development-network.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_core-ambition-for-business-schools.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_core-ambition-for-business-schools.html",
 		"oF": 0
 		},
 	"\/html_partials\/content-blocks\/_core-bus-events.kit": {
@@ -254,11 +275,11 @@
 		"oAP": "\/html_partials\/content-blocks\/_section-accreditation.html",
 		"oF": 0
 		},
-	"\/html_partials\/content-blocks\/_section-adn.kit": {
+	"\/html_partials\/content-blocks\/_section-amba-development-network.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/html_partials\/content-blocks\/_section-adn.html",
+		"oAP": "\/html_partials\/content-blocks\/_section-amba-development-network.html",
 		"oF": 0
 		},
 	"\/html_partials\/content-blocks\/_section-ambition-for-business.kit": {
@@ -309,6 +330,754 @@
 		"oA": 1,
 		"oAP": "\/html_partials\/sitewide\/_section-enquiry.html",
 		"oF": 0
+		},
+	"\/img\/amba-collection\/img-lg-001.jpg": {
+		"ft": 16384,
+		"iS": 179772,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-001.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-002.jpg": {
+		"ft": 16384,
+		"iS": 327517,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-002.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-003.jpg": {
+		"ft": 16384,
+		"iS": 228721,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-003.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-004.jpg": {
+		"ft": 16384,
+		"iS": 323921,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-004.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-005.jpg": {
+		"ft": 16384,
+		"iS": 492120,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-005.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-006.jpg": {
+		"ft": 16384,
+		"iS": 299747,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-006.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-007.jpg": {
+		"ft": 16384,
+		"iS": 236920,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-007.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-008.jpg": {
+		"ft": 16384,
+		"iS": 140146,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-008.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-009.jpg": {
+		"ft": 16384,
+		"iS": 183734,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-009.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-010.jpg": {
+		"ft": 16384,
+		"iS": 156572,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-010.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-011.jpg": {
+		"ft": 16384,
+		"iS": 147933,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-011.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-012.jpg": {
+		"ft": 16384,
+		"iS": 181116,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-012.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-013.jpg": {
+		"ft": 16384,
+		"iS": 132341,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-013.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-014.jpg": {
+		"ft": 16384,
+		"iS": 158854,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-014.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-015.jpg": {
+		"ft": 16384,
+		"iS": 109786,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-015.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-016.jpg": {
+		"ft": 16384,
+		"iS": 159599,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-016.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-lg-017.jpg": {
+		"ft": 16384,
+		"iS": 185041,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-lg-017.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-001.jpg": {
+		"ft": 16384,
+		"iS": 80010,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-001.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-002.jpg": {
+		"ft": 16384,
+		"iS": 110582,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-002.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-003.jpg": {
+		"ft": 16384,
+		"iS": 81559,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-003.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-004.jpg": {
+		"ft": 16384,
+		"iS": 147724,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-004.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-005.jpg": {
+		"ft": 16384,
+		"iS": 169870,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-005.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-006.jpg": {
+		"ft": 16384,
+		"iS": 5301,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-006.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-007.jpg": {
+		"ft": 16384,
+		"iS": 5301,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-007.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-008.jpg": {
+		"ft": 16384,
+		"iS": 59814,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-008.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-009.jpg": {
+		"ft": 16384,
+		"iS": 80212,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-009.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-010.jpg": {
+		"ft": 16384,
+		"iS": 67636,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-010.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-011.jpg": {
+		"ft": 16384,
+		"iS": 67601,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-011.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-012.jpg": {
+		"ft": 16384,
+		"iS": 84053,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-012.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-013.jpg": {
+		"ft": 16384,
+		"iS": 62028,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-013.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-014.jpg": {
+		"ft": 16384,
+		"iS": 69844,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-014.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-015.jpg": {
+		"ft": 16384,
+		"iS": 49193,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-015.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-016.jpg": {
+		"ft": 16384,
+		"iS": 67162,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-016.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-md-017.jpg": {
+		"ft": 16384,
+		"iS": 87235,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-md-017.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-sm-001.jpg": {
+		"ft": 16384,
+		"iS": 44560,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-sm-001.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-sm-002.jpg": {
+		"ft": 16384,
+		"iS": 56337,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-sm-002.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-sm-003.jpg": {
+		"ft": 16384,
+		"iS": 42546,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-sm-003.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-sm-004.jpg": {
+		"ft": 16384,
+		"iS": 64127,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-sm-004.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-sm-005.jpg": {
+		"ft": 16384,
+		"iS": 85439,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-sm-005.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-sm-006.jpg": {
+		"ft": 16384,
+		"iS": 66139,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-sm-006.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-sm-007.jpg": {
+		"ft": 16384,
+		"iS": 56634,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-sm-007.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-001.jpg": {
+		"ft": 16384,
+		"iS": 306343,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-001.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-002.jpg": {
+		"ft": 16384,
+		"iS": 650738,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-002.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-003.jpg": {
+		"ft": 16384,
+		"iS": 435724,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-003.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-004.jpg": {
+		"ft": 16384,
+		"iS": 739701,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-004.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-005.jpg": {
+		"ft": 16384,
+		"iS": 969096,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-005.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-006.jpg": {
+		"ft": 16384,
+		"iS": 482268,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-006.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-007.jpg": {
+		"ft": 16384,
+		"iS": 408424,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-007.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-008.jpg": {
+		"ft": 16384,
+		"iS": 207626,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-008.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-010.jpg": {
+		"ft": 16384,
+		"iS": 239837,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-010.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-011.jpg": {
+		"ft": 16384,
+		"iS": 235958,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-011.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-012.jpg": {
+		"ft": 16384,
+		"iS": 296166,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-012.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-013.jpg": {
+		"ft": 16384,
+		"iS": 208069,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-013.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-014.jpg": {
+		"ft": 16384,
+		"iS": 241489,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-014.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-015.jpg": {
+		"ft": 16384,
+		"iS": 170759,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-015.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-016.jpg": {
+		"ft": 16384,
+		"iS": 246887,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-016.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-017.jpg": {
+		"ft": 16384,
+		"iS": 299812,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-017.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-xl-09.jpg": {
+		"ft": 16384,
+		"iS": 277113,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-xl-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/unedited\/photo-1456735190827-d1262f71b8a3.jpeg": {
+		"ft": 16384,
+		"iS": 129741,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/unedited\/photo-1456735190827-d1262f71b8a3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/unedited\/photo-1503428593586-e225b39bddfe.jpeg": {
+		"ft": 16384,
+		"iS": 96398,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/unedited\/photo-1503428593586-e225b39bddfe.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/unedited\/photo-1503551723145-6c040742065b.jpeg": {
+		"ft": 16384,
+		"iS": 65681,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/unedited\/photo-1503551723145-6c040742065b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/unedited\/photo-1512758017271-d7b84c2113f1.jpeg": {
+		"ft": 16384,
+		"iS": 107729,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/unedited\/photo-1512758017271-d7b84c2113f1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/unedited\/photo-1512805668868-1608a189cc2b.jpeg": {
+		"ft": 16384,
+		"iS": 132422,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/unedited\/photo-1512805668868-1608a189cc2b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/unedited\/photo-1525078459500-9e1a0dd292ab.jpeg": {
+		"ft": 16384,
+		"iS": 119139,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/unedited\/photo-1525078459500-9e1a0dd292ab.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/unedited\/photo-1526454506620-2d558525349a.jpeg": {
+		"ft": 16384,
+		"iS": 100670,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/unedited\/photo-1526454506620-2d558525349a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/unedited\/photo-1529119368496-2dfda6ec2804.jpeg": {
+		"ft": 16384,
+		"iS": 107556,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/unedited\/photo-1529119368496-2dfda6ec2804.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/unedited\/photo-1529119651565-dc15bd8c75fd.jpeg": {
+		"ft": 16384,
+		"iS": 123287,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/unedited\/photo-1529119651565-dc15bd8c75fd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/unedited\/photo-1529119835860-ce3d90485424.jpeg": {
+		"ft": 16384,
+		"iS": 101910,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/unedited\/photo-1529119835860-ce3d90485424.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/ambition-mag\/img-bg-1.jpeg": {
 		"ft": 16384,
@@ -844,17 +1613,6 @@
 		"oAP": "\/img\/people\/AMBA Style Guide_ Template_ Homepage_files\/style-guide-heroes-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"\/img\/people\/img-people-atdesk-hue-green.jpeg": {
-		"ft": 16384,
-		"iS": 198033,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/img\/people\/img-people-atdesk-hue-green.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"\/img\/people\/img-people-atdesk-hue-green.jpg": {
 		"ft": 16384,

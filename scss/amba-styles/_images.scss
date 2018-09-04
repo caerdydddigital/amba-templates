@@ -25,18 +25,6 @@
 	background-size: cover;
 }
 
-.img-bg-image-1 {
-	background-image: url("../img/people/img-people-highfive_lg.jpg");
-}
-
-.img-bg-image-2 {
-	background-image: url("../img/people/img-people-commercial.jpeg");
-}
-
-.img-bg-image-3 {
-	background-image: url("../img/people/img-people-postits.jpeg");
-}
-
 @media (min-width: 768px) {
 	.img-holder {
 		width: 100%;
@@ -47,71 +35,48 @@
 	}
 }
 
+/* --- Background Images --- */
+
+.amba-content-bg-001 {background-image: url("../img/amba-collection/img-md-001.jpg");}
+.amba-content-bg-002 {background-image: url("../img/amba-collection/img-md-002.jpg");}
+.amba-content-bg-003 {background-image: url("../img/amba-collection/img-md-003.jpg");}
+.amba-content-bg-004 {background-image: url("../img/amba-collection/img-md-004.jpg");}
+.amba-content-bg-005 {background-image: url("../img/amba-collection/img-md-005.jpg");}
+.amba-content-bg-006 {background-image: url("../img/amba-collection/img-md-006.jpg");}
+.amba-content-bg-007 {background-image: url("../img/amba-collection/img-md-007.jpg");}
+.amba-content-bg-008 {background-image: url("../img/amba-collection/img-md-008.jpg");}
+.amba-content-bg-009 {background-image: url("../img/amba-collection/img-md-009.jpg");}
+.amba-content-bg-010 {background-image: url("../img/amba-collection/img-md-010.jpg");}
+.amba-content-bg-011 {background-image: url("../img/amba-collection/img-md-011.jpg");}
+.amba-content-bg-012 {background-image: url("../img/amba-collection/img-md-012.jpg");}
+.amba-content-bg-013 {background-image: url("../img/amba-collection/img-md-013.jpg");}
+.amba-content-bg-014 {background-image: url("../img/amba-collection/img-md-014.jpg");}
+.amba-content-bg-015 {background-image: url("../img/amba-collection/img-md-015.jpg");}
+.amba-content-bg-016 {background-image: url("../img/amba-collection/img-md-016.jpg");}
+.amba-content-bg-017 {background-image: url("../img/amba-collection/img-md-017.jpg");}
+
+/* --- ---- */
+
+.amba-hero-bg-001 {background-image: url("../img/amba-collection/img-xl-001.jpg");}
+.amba-hero-bg-002 {background-image: url("../img/amba-collection/img-xl-002.jpg");}
+.amba-hero-bg-003 {background-image: url("../img/amba-collection/img-xl-003.jpg");}
+.amba-hero-bg-004 {background-image: url("../img/amba-collection/img-xl-004.jpg");}
+.amba-hero-bg-005 {background-image: url("../img/amba-collection/img-xl-005.jpg");}
+.amba-hero-bg-006 {background-image: url("../img/amba-collection/img-xl-006.jpg");}
+.amba-hero-bg-007 {background-image: url("../img/amba-collection/img-xl-007.jpg");}
+.amba-hero-bg-008 {background-image: url("../img/amba-collection/img-xl-008.jpg");}
+.amba-hero-bg-009 {background-image: url("../img/amba-collection/img-xl-009.jpg");}
+.amba-hero-bg-010 {background-image: url("../img/amba-collection/img-xl-010.jpg");}
+.amba-hero-bg-011 {background-image: url("../img/amba-collection/img-xl-011.jpg");}
+.amba-hero-bg-012 {background-image: url("../img/amba-collection/img-xl-012.jpg");}
+.amba-hero-bg-013 {background-image: url("../img/amba-collection/img-xl-013.jpg");}
+.amba-hero-bg-014 {background-image: url("../img/amba-collection/img-xl-014.jpg");}
+.amba-hero-bg-015 {background-image: url("../img/amba-collection/img-xl-015.jpg");}
+.amba-hero-bg-016 {background-image: url("../img/amba-collection/img-xl-016.jpg");}
+.amba-hero-bg-017 {background-image: url("../img/amba-collection/img-xl-017.jpg");}
+
+
 /* ------- */
-
-
-.bg-image-1 {
-  	background: url("../img/img-people-1.jpeg") no-repeat bottom center;
-  	background-size: cover;
-}
-
-.bg-image-2 {
-	background: url("../img/img-people-2.jpeg") no-repeat bottom center;
-	background-size: cover;
-}
-
-.bg-image-3 {
-	background: url("../img/img-people-3.jpg") no-repeat bottom center;
-	background-size: cover;
-}
-
-.bg-image-4 {
-	background: url("../img/img-people-2.jpeg") no-repeat bottom center;
-	background-size: cover;
-}
-
-.bg-image-5 {
-	background: url("../img/img-city-5.jpeg") no-repeat bottom center;
-	background-size: cover;
-}
-
-.bg-image-6 {
-	background: url("../img/img-city-4.jpeg") no-repeat bottom center;
-	background-size: cover;
-}
-
-/* --- Hero Images --- */
-
-.amba-hero-bg-1 {
-	background: url("../img/img-city-1.jpeg") no-repeat bottom center;
-}
-.amba-hero-bg-2 {
-	background: url("../img/img-city-2.jpeg") no-repeat bottom center;
-}
-.amba-hero-bg-3 {
-	background: url("../img/img-city-3.jpeg") no-repeat bottom center;
-}
-.amba-hero-bg-4 {
-	background: url("../img/img-city-4.jpeg") no-repeat bottom center;
-}
-.amba-hero-bg-5 {
-	background: url("../img/img-city-5.jpeg") no-repeat bottom center;
-}
-.amba-hero-bg-6 {
-	background: url("../img/img-city-6.jpeg") no-repeat bottom center;
-}
-.amba-hero-bg-7 {
-	background: url("../img/img-city-7.jpeg") no-repeat bottom center;
-}
-.amba-hero-bg-8 {
-	background: url("../img/img-city-8.jpeg") no-repeat bottom center;
-}
-.amba-hero-bg-9 {
-	background: url("../img/img-city-9.jpeg") no-repeat bottom center;
-}
-.amba-hero-bg-10 {
-	background: url("../img/img-city-10.jpeg") no-repeat bottom center;
-}
 
 /* ------- */
 
@@ -120,6 +85,3 @@
 	height: 60vh;
 	background-size: cover;
 }
-
-
-/* ------- */
