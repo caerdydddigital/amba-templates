@@ -37,6 +37,13 @@
 		"oAP": "\/business-schools-amba-development-network.html",
 		"oF": 0
 		},
+	"\/business-schools-ambition-for-business-schools.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/business-schools-ambition-for-business-schools.html",
+		"oF": 0
+		},
 	"\/business-schools-ambition-for-business-schools.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -266,48 +273,6 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/html_partials\/content-blocks\/_section-events.html",
-		"oF": 0
-		},
-	"\/html_partials\/hero-blocks\/_accreditation-home.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/html_partials\/hero-blocks\/_accreditation-home.html",
-		"oF": 0
-		},
-	"\/html_partials\/hero-blocks\/_accreditation-home.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/html_partials\/hero-blocks\/_accreditation-home.html",
-		"oF": 0
-		},
-	"\/html_partials\/hero-blocks\/_adn-home.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/html_partials\/hero-blocks\/_adn-home.html",
-		"oF": 0
-		},
-	"\/html_partials\/hero-blocks\/_business-schools-home.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/html_partials\/hero-blocks\/_business-schools-home.html",
-		"oF": 0
-		},
-	"\/html_partials\/hero-blocks\/_business-schools.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/html_partials\/hero-blocks\/_business-schools.html",
-		"oF": 0
-		},
-	"\/html_partials\/hero-blocks\/_events-home.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "\/html_partials\/hero-blocks\/_events-home.html",
 		"oF": 0
 		},
 	"\/html_partials\/hero-blocks\/_page-hero.kit": {

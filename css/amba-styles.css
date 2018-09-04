@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal; }
 
 h1 {
-  font-size: 3.0rem;
+  font-size: 2.6rem;
   font-weight: 800; }
 
 h2 {
@@ -183,6 +183,37 @@ a:hover,
 .bg-image-6 {
   background: url("../img/img-city-4.jpeg") no-repeat bottom center;
   background-size: cover; }
+
+/* --- Hero Images --- */
+.amba-hero-bg-1 {
+  background: url("../img/img-city-1.jpeg") no-repeat bottom center; }
+
+.amba-hero-bg-2 {
+  background: url("../img/img-city-2.jpeg") no-repeat bottom center; }
+
+.amba-hero-bg-3 {
+  background: url("../img/img-city-3.jpeg") no-repeat bottom center; }
+
+.amba-hero-bg-4 {
+  background: url("../img/img-city-4.jpeg") no-repeat bottom center; }
+
+.amba-hero-bg-5 {
+  background: url("../img/img-city-5.jpeg") no-repeat bottom center; }
+
+.amba-hero-bg-6 {
+  background: url("../img/img-city-6.jpeg") no-repeat bottom center; }
+
+.amba-hero-bg-7 {
+  background: url("../img/img-city-7.jpeg") no-repeat bottom center; }
+
+.amba-hero-bg-8 {
+  background: url("../img/img-city-8.jpeg") no-repeat bottom center; }
+
+.amba-hero-bg-9 {
+  background: url("../img/img-city-9.jpeg") no-repeat bottom center; }
+
+.amba-hero-bg-10 {
+  background: url("../img/img-city-10.jpeg") no-repeat bottom center; }
 
 /* ------- */
 .amba-full-width-img {
@@ -429,24 +460,24 @@ a:hover,
     padding: 4rem 2rem;
     max-height: 540px; } }
 
+.temp {
+  display: table-cell; }
+
 .amba-hero-title {
   color: #fff;
   padding: 1rem 2rem;
   border-radius: 0.2rem;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 1.75rem;
-  max-width: 400px;
   margin: 0 auto; }
 
 @media (min-width: 576px) {
   .amba-hero-title {
-    font-size: 2.25rem;
-    max-width: 500px; } }
+    font-size: 2.2rem; } }
 
 @media (min-width: 768px) {
   .amba-hero-title {
-    font-size: 3.2rem;
-    max-width: 700px; } }
+    font-size: 2.6rem; } }
 
 .amba-hero-bg-1 {
   background: url("../img/img-people-1.jpeg") no-repeat bottom center;
