@@ -268,6 +268,13 @@
 		"oAP": "\/html_partials\/components\/cards\/_card-event.html",
 		"oF": 0
 		},
+	"\/html_partials\/components\/cards\/_card-nested-content.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/components\/cards\/_card-nested-content.html",
+		"oF": 0
+		},
 	"\/html_partials\/content-blocks\/_1-col-colour.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -392,6 +399,13 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/html_partials\/content-blocks\/_core-bus-events.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_event-card-row.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_event-card-row.html",
 		"oF": 0
 		},
 	"\/html_partials\/content-blocks\/_section-accreditation.kit": {
@@ -2431,6 +2445,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/amba-styles\/cards\/_card-event.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/amba-styles\/cards\/_card-nested-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/amba-styles\/cards\/_card-nested-content.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
