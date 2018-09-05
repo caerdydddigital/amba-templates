@@ -51,6 +51,9 @@
 	}
 	.amba-block-header {
 		margin-bottom: $margin-lg;
+		p:last-child {
+			margin-bottom: 0;
+		}
 		@media (min-width: $medium-screen) {
 			margin-bottom: $margin-xl;
 			margin-bottom: $margin-xl;

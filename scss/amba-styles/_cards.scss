@@ -1,10 +1,18 @@
 // Cards
 
+.card-block {
+	padding: $padding-xs;
+  border-radius: $radius-sm;
+	margin-bottom: $margin-sm;
+	i {
+		margin-right: $margin-xs;
+	}
+}
+
 .card {
   border-radius: $radius-sm;
 	margin-bottom: $margin-sm;
   margin: .5rem 0 1rem 0;
-  background-color: #fff;
   -webkit-transition: -webkit-box-shadow .25s;
   transition: -webkit-box-shadow .25s;
   transition: box-shadow .25s;
@@ -15,9 +23,31 @@
 	}
 	i {
 		margin-right: 0.4rem;
-		color: $amba-mid-grey;
+		color: $amba-green;
 	}
 }
+.card-ambition-mag {
+	padding: $padding-xs;
+	.card-ambition-image {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top center;
+		width: 50%;
+		min-height: 10rem;
+		margin-bottom: $margin-sm;
+		img {
+			border: 0.2rem solid $amba-green;
+		}
+	}
+	.card-footer {
+		padding: 0 $padding-xs 0 $padding-xs;
+		.btn {
+			width: 100%;
+			margin: 0 auto;
+		}
+	}
+}
+
 
 .card-event {
 	.card-img-top {
@@ -28,7 +58,6 @@
 	  margin-bottom: 0;
 	}
 	.card-body {
-		min-height: 15rem;
 		padding: $padding-xs;
 		p {
 			margin-bottom: $margin-xs;
@@ -41,10 +70,19 @@
 			color: $amba-green;
 			min-height: 2.4rem;
 		}
+		.card-event-details {
+			margin-bottom: $margin-sm;
+			p {
+				color: $amba-mid-grey;
+				font-size: $font-size-xxs;
+			}
+		}
 		.card-event-description {
-			margin-bottom: 0;
-			color: $amba-dark-grey;
-			font-size: $font-size-xxs;
+			min-height: 6rem;
+			p {
+				color: $amba-dark-grey;
+				font-size: $font-size-xxs;
+			}
 		}
 	}
 	.card-footer {
@@ -60,6 +98,7 @@
 /* Card Enquiry */
 
 .card-enquiry {
+	margin-bottom: $margin-sm;
 	.card-enquiry-mugshot {
 		border-radius: $radius-sm 0 0 $radius-sm;
 		height: 11rem;
@@ -67,13 +106,13 @@
 		background-repeat: no-repeat;
 		background-position: center center;
 		padding: 0;
+		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 	}
 	.card-enquiry-body {
 		padding: $padding-xxs;
 		.person-name {
 			margin-bottom: $margin-xxs;
-			font-size: $font-size-md;
-			color: $amba-green;
 		}
 		.person-job-title {
 			margin-bottom: $margin-xs;
@@ -84,6 +123,10 @@
 			color: inherit;
 		}
 	}
+}
+
+.card-enquiry:last-child {
+	margin-bottom: 0;
 }
 
 

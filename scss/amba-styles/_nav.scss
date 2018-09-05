@@ -1,0 +1,12 @@
+nav {
+	background-color: $amba-off-white;
+	display: flex;
+	div, h1 {
+		padding: 0.3rem;
+		margin: 0 1rem;
+	}
+	div {
+		border-bottom: 0.2rem solid $amba-orange;
+		font-size: $font-size-xxs;
+	}
+}

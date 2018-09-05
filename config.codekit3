@@ -51,6 +51,13 @@
 		"oAP": "\/business-schools-ambition-for-business-schools.html",
 		"oF": 0
 		},
+	"\/business-schools-events-event-1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/business-schools-events-event-1.html",
+		"oF": 0
+		},
 	"\/business-schools-events.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -240,6 +247,13 @@
 		"oAP": "\/html_partials\/components\/_card-contact-portrait.html",
 		"oF": 0
 		},
+	"\/html_partials\/content-blocks\/_card-ambition-mag.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_card-ambition-mag.html",
+		"oF": 0
+		},
 	"\/html_partials\/content-blocks\/_card-event.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -337,6 +351,50 @@
 		"oA": 1,
 		"oAP": "\/html_partials\/sitewide\/_section-enquiry.html",
 		"oF": 0
+		},
+	"\/img\/amba-collection\/img-ambition-sm-001.jpg": {
+		"ft": 16384,
+		"iS": 54263,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-ambition-sm-001.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-ambition-sm-002.jpg": {
+		"ft": 16384,
+		"iS": 52571,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-ambition-sm-002.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-ambition-sm-003.jpg": {
+		"ft": 16384,
+		"iS": 28527,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-ambition-sm-003.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-ambition-sm-004.jpg": {
+		"ft": 16384,
+		"iS": 16959,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-ambition-sm-004.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"\/img\/amba-collection\/img-lg-001.jpg": {
 		"ft": 16384,
@@ -718,6 +776,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/amba-collection\/img-person-lg-001.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/amba-collection\/img-person-lg-002.jpeg": {
+		"ft": 16384,
+		"iS": 70262,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/amba-collection\/img-person-lg-002.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2146,6 +2215,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/amba-styles\/_images.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/amba-styles\/_nav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/amba-styles\/_nav.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
