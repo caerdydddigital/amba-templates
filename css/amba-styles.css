@@ -61,6 +61,23 @@ nav {
 .bg-amba-dark-grey li {
   color: #fff; }
 
+.bg-amba-red h1, .bg-amba-red h2, .bg-amba-red h3, .bg-amba-red h4, .bg-amba-red h5, .bg-amba-red h6, .bg-amba-red p,
+.bg-amba-green h1,
+.bg-amba-green h2,
+.bg-amba-green h3,
+.bg-amba-green h4,
+.bg-amba-green h5,
+.bg-amba-green h6,
+.bg-amba-green p,
+.bg-amba-dark-grey h1,
+.bg-amba-dark-grey h2,
+.bg-amba-dark-grey h3,
+.bg-amba-dark-grey h4,
+.bg-amba-dark-grey h5,
+.bg-amba-dark-grey h6,
+.bg-amba-dark-grey p {
+  color: #fff; }
+
 .amba-article-title h1 {
   color: #00888A; }
 

@@ -282,6 +282,69 @@
 		"oAP": "\/html_partials\/components\/cards\/_card-nested-content.html",
 		"oF": 0
 		},
+	"\/html_partials\/content-blocks\/1-col\/_content-accreditation.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/1-col\/_content-accreditation.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/1-col\/_content-adn.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/1-col\/_content-adn.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/1-col\/_content-events.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/1-col\/_content-events.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/2-col\/_2-col-colour.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/2-col\/_2-col-colour.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/2-col\/_2-col.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/2-col\/_2-col.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/2-col\/content-business-schools.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/html_partials\/content-blocks\/2-col\/content-business-schools.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/2-col\/content-business-schools.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/2-col\/content-business-schools.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/2-col\/content-students-and-graduates.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/html_partials\/content-blocks\/2-col\/content-students-and-graduates.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/2-col\/content-students-and-graduates.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/2-col\/content-students-and-graduates.html",
+		"oF": 0
+		},
 	"\/html_partials\/content-blocks\/_1-col-colour.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -352,13 +415,6 @@
 		"oAP": "\/html_partials\/content-blocks\/_1-col-with-nested-4-grid.html",
 		"oF": 0
 		},
-	"\/html_partials\/content-blocks\/_1-col-with-right-image.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"oA": 1,
-		"oAP": "\/html_partials\/content-blocks\/_1-col-with-right-image.html",
-		"oF": 0
-		},
 	"\/html_partials\/content-blocks\/_1-col.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -371,6 +427,13 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/html_partials\/content-blocks\/_2-col-colour.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_2-col-with-image-right.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_2-col-with-image-right.html",
 		"oF": 0
 		},
 	"\/html_partials\/content-blocks\/_2-col.kit": {
@@ -441,6 +504,69 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/html_partials\/content-blocks\/_section-events.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/global-templates\/_template--1-col-colour.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/global-templates\/_template--1-col-colour.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/global-templates\/_template--1-col-with-4-icon-list.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/global-templates\/_template--1-col-with-4-icon-list.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/global-templates\/_template--1-col-with-left-image.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/global-templates\/_template--1-col-with-left-image.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/global-templates\/_template--1-col-with-nested-4-grid.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/global-templates\/_template--1-col-with-nested-4-grid.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/global-templates\/_template--1-col.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/global-templates\/_template--1-col.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/global-templates\/_template--2-col-colour.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/global-templates\/_template--2-col-colour.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/global-templates\/_template--2-col-image-left.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/global-templates\/_template--2-col-image-left.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/global-templates\/_template--2-col-image-right.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/global-templates\/_template--2-col-image-right.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/global-templates\/_template--2-col.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/global-templates\/_template--2-col.html",
 		"oF": 0
 		},
 	"\/html_partials\/hero-blocks\/_page-hero.kit": {
