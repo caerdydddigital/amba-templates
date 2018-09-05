@@ -544,6 +544,9 @@ a:hover,
   .card-nested-content p:last-child {
     margin-bottom: 0; }
 
+.card-list-item {
+  margin-bottom: 2rem; }
+
 /* Card Variables */
 .contact-card-accreditation .card-contact-mugshot {
   background-image: url(../img/team/mugshot-amy-youngs-background.jpg); }
@@ -687,6 +690,19 @@ a:hover,
     .container-fluid {
       padding-left: 4rem;
       padding-right: 4rem; } }
+
+.amba-strip-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+  .amba-strip-bg h1, .amba-strip-bg h2, .amba-strip-bg h3, .amba-strip-bg h4, .amba-strip-bg h5, .amba-strip-bg p, .amba-strip-bg a {
+    color: #fff; }
+  @media (min-width: 768px) {
+    .amba-strip-bg {
+      padding-top: 8rem;
+      padding-bottom: 8rem; } }
 
 /* -- Block Depth --*/
 .amba-block-slim {

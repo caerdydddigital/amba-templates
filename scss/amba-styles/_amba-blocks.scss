@@ -18,6 +18,21 @@
 	}
 }
 
+.amba-strip-bg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: $padding-xl;
+	padding-bottom: $padding-xl;
+	h1, h2, h3, h4, h5, p, a {
+		color: $amba-white;
+	}
+	@media (min-width: $medium-screen) {
+		padding-top: $padding-xxl;
+		padding-bottom: $padding-xxl;
+	}
+}
+
 /* -- Block Depth --*/
 
 .amba-block-slim {
