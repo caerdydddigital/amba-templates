@@ -268,6 +268,104 @@
 		"oAP": "\/html_partials\/components\/cards\/_card-event.html",
 		"oF": 0
 		},
+	"\/html_partials\/content-blocks\/_1-col-colour.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_1-col-colour.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_1-col-left-with-bg-image.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_1-col-left-with-bg-image.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_1-col-right-with-bg-image.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_1-col-right-with-bg-image.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_1-col-with-4-icon-list.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_1-col-with-4-icon-list.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_1-col-with-hug-left-image-colour.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_1-col-with-hug-left-image-colour.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_1-col-with-hug-left-image.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_1-col-with-hug-left-image.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_1-col-with-hug-right-image-colour.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_1-col-with-hug-right-image-colour.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_1-col-with-hug-right-image.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_1-col-with-hug-right-image.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_1-col-with-left-image.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_1-col-with-left-image.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_1-col-with-nested-4-grid.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_1-col-with-nested-4-grid.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_1-col-with-right-image.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_1-col-with-right-image.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_1-col.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_1-col.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_2-col-colour.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_2-col-colour.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/_2-col.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/_2-col.html",
+		"oF": 0
+		},
 	"\/html_partials\/content-blocks\/_core-accreditation.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -3457,9 +3555,23 @@
 		"oAP": "\/style-guide-ambition.html",
 		"oF": 0
 		},
+	"\/style-guide-old.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/style-guide-old.html",
+		"oF": 0
+		},
 	"\/style-guide.html": {
 		"cB": 0,
 		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/style-guide.html",
+		"oF": 0
+		},
+	"\/style-guide.kit": {
+		"cB": 0,
+		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/style-guide.html",
 		"oF": 0

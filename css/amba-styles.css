@@ -368,39 +368,41 @@ a:hover,
 
 /* --- Card Imports --- */
 .card-ambition-mag {
-  padding-bottom: 1.2rem; }
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 2rem;
+  border-radius: 0.1rem; }
   .card-ambition-mag .card-image-holder {
     position: relative;
-    min-height: 12rem;
+    min-height: 8rem;
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    margin-bottom: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .card-ambition-mag .card-image-holder h3 {
-      text-align: center;
-      color: #fff;
-      background-color: #8C0044;
-      padding: 0.6rem;
-      border-radius: 0.2rem;
-      font-family: 'Nunito Sans', sans-serif;
-      font-size: 1.3rem;
-      margin: auto 0.2rem; }
-  .card-ambition-mag .card-body {
-    text-align: left;
-    min-height: 11rem; }
-    .card-ambition-mag .card-body h4 {
+    padding: 0.6rem;
+    text-align: right; }
+  .card-ambition-mag .card-header {
+    padding: 1.2rem 1.2rem;
+    border-bottom: 0.1rem solid #E6EDEF; }
+    .card-ambition-mag .card-header p {
+      margin-bottom: 0;
       color: #00888A; }
-    .card-ambition-mag .card-body ul {
-      padding-inline-start: 1rem; }
-    .card-ambition-mag .card-body li {
-      font-size: 0.8rem; }
+  .card-ambition-mag .card-body .article {
+    display: flex;
+    border-bottom: 1px solid #fcfdfd;
+    padding: 0.6rem 1.2rem; }
+    .card-ambition-mag .card-body .article i {
+      margin-right: 1rem; }
+    .card-ambition-mag .card-body .article p {
+      font-size: 0.8rem;
+      padding-bottom: 0;
+      margin-bottom: 0; }
+  .card-ambition-mag .card-body .article:first-child {
+    margin-top: 1rem; }
   .card-ambition-mag .card-footer {
-    padding: 0 1.2rem 0 1.2rem; }
+    text-align: center;
+    padding: 1.2rem; }
     .card-ambition-mag .card-footer .btn {
-      margin: 0 auto; }
+      width: 100%;
+      margin-bottom: 0; }
 
 /* --- Version 2 --- */
 .card-ambition-mag-v2 {
