@@ -3,14 +3,19 @@
  * By Caerdydd Digital
  */
 nav {
+  padding-bottom: 1.2rem;
   background-color: #fcfdfd;
   display: flex; }
-  nav div, nav h1 {
-    padding: 0.3rem;
+  nav a, nav h1, nav h5 {
+    padding: 0.2rem;
     margin: 0 1rem; }
-  nav div {
+  nav a {
     border-bottom: 0.2rem solid #EE7401;
     font-size: 0.8rem; }
+  nav a:hover {
+    text-decoration: none;
+    border-bottom: 0.2rem solid #00888A;
+    color: #00888A; }
 
 .bg-amba-green {
   background-color: #00888A; }
@@ -342,6 +347,7 @@ a:hover,
 .btn-block + .btn-block {
   margin-top: 0.5rem; }
 
+/* --- Card Master --- */
 .card-block {
   padding: 1.2rem;
   border-radius: 0.2rem;
@@ -352,12 +358,7 @@ a:hover,
 .card {
   border-radius: 0.2rem;
   margin-bottom: 1rem;
-  margin: .5rem 0 1rem 0;
-  -webkit-transition: -webkit-box-shadow .25s;
-  transition: -webkit-box-shadow .25s;
-  transition: box-shadow .25s;
-  transition: box-shadow .25s, -webkit-box-shadow .25s;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05); }
+  margin: .5rem 0 1rem 0; }
   @media (min-width: 768px) {
     .card {
       margin-bottom: 2rem; } }
@@ -365,22 +366,110 @@ a:hover,
     margin-right: 0.4rem;
     color: #00888A; }
 
+/* --- Card Imports --- */
 .card-ambition-mag {
-  padding: 1.2rem; }
-  .card-ambition-mag .card-ambition-image {
+  padding-bottom: 1.2rem; }
+  .card-ambition-mag .card-image-holder {
+    position: relative;
+    min-height: 12rem;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: top center;
-    width: 50%;
-    min-height: 10rem;
-    margin-bottom: 1rem; }
-    .card-ambition-mag .card-ambition-image img {
-      border: 0.2rem solid #00888A; }
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .card-ambition-mag .card-image-holder h3 {
+      text-align: center;
+      color: #fff;
+      background-color: #8C0044;
+      padding: 0.6rem;
+      border-radius: 0.2rem;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 1.3rem;
+      margin: auto 0.2rem; }
+  .card-ambition-mag .card-body {
+    text-align: left;
+    min-height: 11rem; }
+    .card-ambition-mag .card-body h4 {
+      color: #00888A; }
+    .card-ambition-mag .card-body ul {
+      padding-inline-start: 1rem; }
+    .card-ambition-mag .card-body li {
+      font-size: 0.8rem; }
   .card-ambition-mag .card-footer {
     padding: 0 1.2rem 0 1.2rem; }
     .card-ambition-mag .card-footer .btn {
+      margin: 0 auto; }
+
+/* --- Version 2 --- */
+.card-ambition-mag-v2 {
+  box-shadow: 0 0 0 0 transparent; }
+  .card-ambition-mag-v2 .card-image-holder {
+    position: relative;
+    min-height: 12rem;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .card-ambition-mag-v2 .card-image-holder h3 {
+      text-align: center;
+      color: #fff;
+      background-color: #8C0044;
+      padding: 0.6rem;
+      border-radius: 0.2rem;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 1.3rem;
+      margin: auto 0.2rem; }
+  .card-ambition-mag-v2 .card-body {
+    text-align: left;
+    min-height: 13rem;
+    padding: 0.6rem 0; }
+    .card-ambition-mag-v2 .card-body li {
+      font-size: 0.8rem; }
+  .card-ambition-mag-v2 .card-footer {
+    padding: 0 1.2rem 0 1.2rem; }
+    .card-ambition-mag-v2 .card-footer .btn {
       width: 100%;
       margin: 0 auto; }
+
+/* Contact Card */
+.card-contact {
+  margin: 0 auto;
+  border-radius: 0.2rem;
+  padding: 2rem 1.2rem;
+  min-height: 0; }
+  .card-contact.card-contact-portrait {
+    max-width: 400px; }
+    .card-contact.card-contact-portrait .card-contact-mugshot {
+      margin: 0 auto 1rem auto; }
+  .card-contact.card-contact-landscape {
+    max-width: 500px; }
+    .card-contact.card-contact-landscape .card-contact-mugshot {
+      margin: 0 auto 0 auto; }
+    .card-contact.card-contact-landscape .card-contact-body h5 {
+      margin-bottom: 0; }
+  .card-contact .card-contact-mugshot {
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 100px;
+    position: relative;
+    /*  top: -70px;*/ }
+  .card-contact .card-contact-body h4 {
+    color: #00888A;
+    margin-bottom: 0.2rem; }
+  .card-contact .card-contact-body h5 {
+    margin-bottom: 1rem; }
+  .card-contact .card-contact-body p {
+    margin-bottom: 0.2rem; }
+  .card-contact .card-contact-body a {
+    color: #1C2E36; }
 
 .card-event .card-img-top {
   height: 12rem;
@@ -419,7 +508,8 @@ a:hover,
 
 /* Card Enquiry */
 .card-enquiry {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  background-color: #fff; }
   .card-enquiry .card-enquiry-mugshot {
     border-radius: 0.2rem 0 0 0.2rem;
     height: 11rem;
@@ -443,80 +533,6 @@ a:hover,
 
 .card-enquiry:last-child {
   margin-bottom: 0; }
-
-.card-temp {
-  min-height: 25rem; }
-  @media (min-width: 768px) {
-    .card-temp {
-      min-height: 21rem; } }
-  @media (min-width: 992px) {
-    .card-temp {
-      min-height: 23.875rem; } }
-
-.card-bg-white {
-  background-color: #fff;
-  position: relative; }
-
-/* Cards */
-.card-body .btn {
-  margin: 1rem 0 0 0; }
-
-.card-body h4 {
-  color: #00888A; }
-
-.card-body {
-  padding: 1.4rem; }
-
-.card-tight {
-  padding: 0;
-  margin-bottom: 1.4rem; }
-
-.card-img-top {
-  border-radius: 0.1rem 0.1rem 0 0;
-  margin-bottom: 0; }
-
-/* Card Colours */
-.card-bg-white {
-  background-color: #ffffff;
-  color: #1C2E36; }
-  .card-bg-white .card-title,
-  .card-bg-white .card-event-date {
-    color: #1C2E36; }
-
-/* Contact Card */
-.card-contact {
-  margin: 0 auto;
-  border-radius: 0.2rem;
-  padding: 2rem 1.2rem;
-  min-height: 0; }
-  .card-contact.card-contact-portrait {
-    max-width: 400px; }
-    .card-contact.card-contact-portrait .card-contact-mugshot {
-      margin: 0 auto 1rem auto; }
-  .card-contact.card-contact-landscape {
-    max-width: 500px; }
-    .card-contact.card-contact-landscape .card-contact-mugshot {
-      margin: 0 auto 0 auto; }
-    .card-contact.card-contact-landscape .card-contact-body h5 {
-      margin-bottom: 0; }
-  .card-contact .card-contact-mugshot {
-    width: 120px;
-    height: 120px;
-    background-position: center;
-    background-size: cover;
-    border: 6px solid white;
-    border-radius: 100px;
-    position: relative;
-    /*  top: -70px;*/ }
-  .card-contact .card-contact-body h4 {
-    color: #00888A;
-    margin-bottom: 0.2rem; }
-  .card-contact .card-contact-body h5 {
-    margin-bottom: 1rem; }
-  .card-contact .card-contact-body p {
-    margin-bottom: 0.2rem; }
-  .card-contact .card-contact-body a {
-    color: #1C2E36; }
 
 /* Card Variables */
 .contact-card-accreditation .card-contact-mugshot {
@@ -621,15 +637,15 @@ a:hover,
   text-align: center;
   place-items: center center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 @media (min-width: 576px) {
   .amba-hero {
     padding: 4rem 2rem;
     max-height: 540px; } }
-
-.temp {
-  display: table-cell; }
 
 .amba-hero-title {
   color: #fff;
@@ -637,7 +653,7 @@ a:hover,
   border-radius: 0.2rem;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 1.75rem;
-  margin: 0 auto; }
+  margin: 0 2rem; }
 
 @media (min-width: 576px) {
   .amba-hero-title {

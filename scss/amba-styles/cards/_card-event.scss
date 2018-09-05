@@ -1,0 +1,44 @@
+.card-event {
+	.card-img-top {
+		height: 12rem;
+		background-repeat: no-repeat;
+		background-size: cover;
+	  border-radius: 0.1rem 0.1rem 0 0;
+	  margin-bottom: 0;
+	}
+	.card-body {
+		padding: $padding-xs;
+		p {
+			margin-bottom: $margin-xs;
+			font-size: $font-size-xxs;
+			color: $amba-mid-grey;
+		}
+		.card-event-title {
+			margin-bottom: $margin-sm;
+			font-weight: 500;
+			color: $amba-green;
+			min-height: 2.4rem;
+		}
+		.card-event-details {
+			margin-bottom: $margin-sm;
+			p {
+				color: $amba-mid-grey;
+				font-size: $font-size-xxs;
+			}
+		}
+		.card-event-description {
+			min-height: 6rem;
+			p {
+				color: $amba-dark-grey;
+				font-size: $font-size-xxs;
+			}
+		}
+	}
+	.card-footer {
+		padding: 0 $padding-xs $padding-xs $padding-xs;
+		.btn {
+			width: 100%;
+			margin: 0 auto;
+		}
+	}
+}

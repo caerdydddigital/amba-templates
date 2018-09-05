@@ -1,0 +1,34 @@
+/* Card Enquiry */
+
+.card-enquiry {
+	margin-bottom: $margin-sm;
+	background-color: $amba-white;
+	.card-enquiry-mugshot {
+		border-radius: $radius-sm 0 0 $radius-sm;
+		height: 11rem;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		padding: 0;
+		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+	}
+	.card-enquiry-body {
+		padding: $padding-xxs;
+		.person-name {
+			margin-bottom: $margin-xxs;
+		}
+		.person-job-title {
+			margin-bottom: $margin-xs;
+		}
+		.person-details,
+		a {
+			margin-bottom: $margin-xxs;
+			color: inherit;
+		}
+	}
+}
+
+.card-enquiry:last-child {
+	margin-bottom: 0;
+}

@@ -1,4 +1,4 @@
-// Cards
+/* --- Card Master --- */
 
 .card-block {
 	padding: $padding-xs;
@@ -13,11 +13,11 @@
   border-radius: $radius-sm;
 	margin-bottom: $margin-sm;
   margin: .5rem 0 1rem 0;
-  -webkit-transition: -webkit-box-shadow .25s;
-  transition: -webkit-box-shadow .25s;
-  transition: box-shadow .25s;
-  transition: box-shadow .25s, -webkit-box-shadow .25s;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.05);
+  // -webkit-transition: -webkit-box-shadow .25s;
+  // transition: -webkit-box-shadow .25s;
+  // transition: box-shadow .25s;
+  // transition: box-shadow .25s, -webkit-box-shadow .25s;
+  // box-shadow: 0 2px 2px 0 rgba(0,0,0,0.05);
 	@media (min-width: $medium-screen) {
 		margin-bottom: $margin-md;
 	}
@@ -26,213 +26,15 @@
 		color: $amba-green;
 	}
 }
-.card-ambition-mag {
-	padding: $padding-xs;
-	.card-ambition-image {
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: top center;
-		width: 50%;
-		min-height: 10rem;
-		margin-bottom: $margin-sm;
-		img {
-			border: 0.2rem solid $amba-green;
-		}
-	}
-	.card-footer {
-		padding: 0 $padding-xs 0 $padding-xs;
-		.btn {
-			width: 100%;
-			margin: 0 auto;
-		}
-	}
-}
 
+/* --- Card Imports --- */
 
-.card-event {
-	.card-img-top {
-		height: 12rem;
-		background-repeat: no-repeat;
-		background-size: cover;
-	  border-radius: 0.1rem 0.1rem 0 0;
-	  margin-bottom: 0;
-	}
-	.card-body {
-		padding: $padding-xs;
-		p {
-			margin-bottom: $margin-xs;
-			font-size: $font-size-xxs;
-			color: $amba-mid-grey;
-		}
-		.card-event-title {
-			margin-bottom: $margin-sm;
-			font-weight: 500;
-			color: $amba-green;
-			min-height: 2.4rem;
-		}
-		.card-event-details {
-			margin-bottom: $margin-sm;
-			p {
-				color: $amba-mid-grey;
-				font-size: $font-size-xxs;
-			}
-		}
-		.card-event-description {
-			min-height: 6rem;
-			p {
-				color: $amba-dark-grey;
-				font-size: $font-size-xxs;
-			}
-		}
-	}
-	.card-footer {
-		padding: 0 $padding-xs $padding-xs $padding-xs;
-		.btn {
-			width: 100%;
-			margin: 0 auto;
-		}
-	}
-}
-
-
-/* Card Enquiry */
-
-.card-enquiry {
-	margin-bottom: $margin-sm;
-	.card-enquiry-mugshot {
-		border-radius: $radius-sm 0 0 $radius-sm;
-		height: 11rem;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center center;
-		padding: 0;
-		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-	}
-	.card-enquiry-body {
-		padding: $padding-xxs;
-		.person-name {
-			margin-bottom: $margin-xxs;
-		}
-		.person-job-title {
-			margin-bottom: $margin-xs;
-		}
-		.person-details,
-		a {
-			margin-bottom: $margin-xxs;
-			color: inherit;
-		}
-	}
-}
-
-.card-enquiry:last-child {
-	margin-bottom: 0;
-}
+@import "cards/card-ambition-mag";
+@import "cards/card-contact";
+@import "cards/card-event";
+@import "cards/card-enquiry";
 
 
 
-.card-temp {
-	min-height: 25rem;
-	@media (min-width: $medium-screen) {
-		min-height: 21rem;
-	}
-	@media (min-width: $large-screen) {
-		min-height: 23.875rem;
-	}
-}
 
-.card-bg-white {
-	background-color: $amba-white;
-	position: relative;
-}
-
-
-/* Cards */
-
-.card-body .btn {
-  margin: 1rem 0 0 0;
-}
-
-.card-body h4 {
-  color: #00888A;
-}
-
-.card-body {
-  padding: 1.4rem;
-}
-
-.card-tight {
-  padding: 0;
-  margin-bottom: 1.4rem;
-}
-
-.card-img-top {
-  border-radius: 0.1rem 0.1rem 0 0;
-  margin-bottom: 0;
-}
-
-/* Card Colours */
-
-.card-bg-white {
-  background-color: #ffffff;
-  color: #1C2E36;
-	.card-title,
-	.card-event-date  {
-	  color: #1C2E36;
-	}
-}
-
-
-
-/* Contact Card */
-
-.card-contact {
-  margin: 0 auto;
-  border-radius: 0.2rem;
-  padding: $padding-sm $padding-xs;
-  min-height: 0;
-	&.card-contact-portrait {
-		max-width: 400px;
-		.card-contact-mugshot {
-		  margin: 0 auto $margin-sm auto;
-		}
-	}
-	&.card-contact-landscape {
-  	max-width: 500px;
-  	.card-contact-mugshot {
-		  margin: 0 auto 0 auto;
-  	}
-  	.card-contact-body {
-  		h5 {
-  			margin-bottom: 0;
-  		}
-  	}
-	}
-	.card-contact-mugshot {
-	  width: 120px;
-	  height: 120px;
-	  background-position: center;
-	  background-size: cover;
-	  border: 6px solid white;
-	  border-radius: 100px;
-	  position: relative;
-	/*  top: -70px;*/
-	}
-	
-	.card-contact-body {
-		h4 {
-			color: $amba-green;
-			margin-bottom: $margin-xs;
-		}
-		h5 {
-			margin-bottom: $margin-sm;
-		}
-		p {
-			margin-bottom: $margin-xs;
-		}
-		a {
-			color: $amba-dark-grey;
-		}
-	}
-}
 

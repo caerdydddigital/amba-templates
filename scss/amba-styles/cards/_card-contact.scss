@@ -1,0 +1,51 @@
+/* Contact Card */
+
+.card-contact {
+  margin: 0 auto;
+  border-radius: 0.2rem;
+  padding: $padding-sm $padding-xs;
+  min-height: 0;
+	&.card-contact-portrait {
+		max-width: 400px;
+		.card-contact-mugshot {
+		  margin: 0 auto $margin-sm auto;
+		}
+	}
+	&.card-contact-landscape {
+  	max-width: 500px;
+  	.card-contact-mugshot {
+		  margin: 0 auto 0 auto;
+  	}
+  	.card-contact-body {
+  		h5 {
+  			margin-bottom: 0;
+  		}
+  	}
+	}
+	.card-contact-mugshot {
+	  width: 120px;
+	  height: 120px;
+	  background-position: center;
+	  background-size: cover;
+	  border: 6px solid white;
+	  border-radius: 100px;
+	  position: relative;
+	/*  top: -70px;*/
+	}
+	
+	.card-contact-body {
+		h4 {
+			color: $amba-green;
+			margin-bottom: $margin-xs;
+		}
+		h5 {
+			margin-bottom: $margin-sm;
+		}
+		p {
+			margin-bottom: $margin-xs;
+		}
+		a {
+			color: $amba-dark-grey;
+		}
+	}
+}

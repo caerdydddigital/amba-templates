@@ -1,0 +1,84 @@
+.card-ambition-mag {
+	padding-bottom: $padding-xs;
+	.card-image-holder {
+		position: relative;
+		min-height: 12rem;
+		background-size: cover;
+		background-position: top center;
+		background-repeat: no-repeat;
+		margin-bottom: $margin-sm;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+		h3 {
+				text-align: center;
+				color: #fff;
+				background-color: $amba-red;
+				padding: $padding-xxs;
+				border-radius: 0.2rem;
+			  font-family: 'Nunito Sans', sans-serif;
+			  font-size: $font-size-md;
+				margin: auto $margin-xs;
+		}
+	}
+	.card-body {
+		text-align: left;
+		min-height: 11rem;
+		h4 {
+			color: $amba-green;
+		}
+		ul {
+			padding-inline-start: 1rem;
+		}
+		li {
+			font-size: $font-size-xxs;
+		}
+	}
+	.card-footer {
+		padding: 0 $padding-xs 0 $padding-xs;
+		.btn {
+			margin: 0 auto;
+		}
+	}
+}
+
+/* --- Version 2 --- */
+.card-ambition-mag-v2 {
+	box-shadow: 0 0 0 0 rgba(0,0,0,0.00);
+	.card-image-holder {
+		position: relative;
+		min-height: 12rem;
+		background-size: cover;
+		background-position: top center;
+		background-repeat: no-repeat;
+		margin-bottom: $margin-sm;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+		h3 {
+				text-align: center;
+				color: #fff;
+				background-color: $amba-red;
+				padding: $padding-xxs;
+				border-radius: 0.2rem;
+			  font-family: 'Nunito Sans', sans-serif;
+			  font-size: $font-size-md;
+				margin: auto $margin-xs;
+		}
+	}
+	.card-body {
+		text-align: left;
+		min-height: 13rem;
+		padding: $padding-xxs 0;
+		li {
+			font-size: $font-size-xxs;
+		}
+	}
+	.card-footer {
+		padding: 0 $padding-xs 0 $padding-xs;
+		.btn {
+			width: 100%;
+			margin: 0 auto;
+		}
+	}
+}

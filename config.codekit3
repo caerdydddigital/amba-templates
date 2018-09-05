@@ -226,39 +226,46 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/html_partials\/components\/_card-contact-enquiry.kit": {
+	"\/html_partials\/components\/cards\/_card-ambition-mag-v2.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/html_partials\/components\/_card-contact-enquiry.html",
+		"oAP": "\/html_partials\/components\/cards\/_card-ambition-mag-v2.html",
 		"oF": 0
 		},
-	"\/html_partials\/components\/_card-contact-landscape.kit": {
+	"\/html_partials\/components\/cards\/_card-ambition-mag.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/html_partials\/components\/_card-contact-landscape.html",
+		"oAP": "\/html_partials\/components\/cards\/_card-ambition-mag.html",
 		"oF": 0
 		},
-	"\/html_partials\/components\/_card-contact-portrait.kit": {
+	"\/html_partials\/components\/cards\/_card-contact-enquiry.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/html_partials\/components\/_card-contact-portrait.html",
+		"oAP": "\/html_partials\/components\/cards\/_card-contact-enquiry.html",
 		"oF": 0
 		},
-	"\/html_partials\/content-blocks\/_card-ambition-mag.kit": {
+	"\/html_partials\/components\/cards\/_card-contact-landscape.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/html_partials\/content-blocks\/_card-ambition-mag.html",
+		"oAP": "\/html_partials\/components\/cards\/_card-contact-landscape.html",
 		"oF": 0
 		},
-	"\/html_partials\/content-blocks\/_card-event.kit": {
+	"\/html_partials\/components\/cards\/_card-contact-portrait.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/html_partials\/content-blocks\/_card-event.html",
+		"oAP": "\/html_partials\/components\/cards\/_card-contact-portrait.html",
+		"oF": 0
+		},
+	"\/html_partials\/components\/cards\/_card-event.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/components\/cards\/_card-event.html",
 		"oF": 0
 		},
 	"\/html_partials\/content-blocks\/_core-accreditation.kit": {
@@ -322,6 +329,13 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/html_partials\/hero-blocks\/_page-hero.html",
+		"oF": 0
+		},
+	"\/html_partials\/sitewide\/_business-schools-nav.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/sitewide\/_business-schools-nav.html",
 		"oF": 0
 		},
 	"\/html_partials\/sitewide\/_footer.kit": {
@@ -2267,6 +2281,58 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/amba-styles\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/amba-styles\/cards\/_card-ambition-mag.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/amba-styles\/cards\/_card-ambition-mag.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/amba-styles\/cards\/_card-contact.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/amba-styles\/cards\/_card-contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/amba-styles\/cards\/_card-enquiry.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/amba-styles\/cards\/_card-enquiry.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/amba-styles\/cards\/_card-event.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/amba-styles\/cards\/_card-event.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
