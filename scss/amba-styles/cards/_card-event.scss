@@ -14,10 +14,12 @@
 			color: $amba-mid-grey;
 		}
 		.card-event-title {
-			margin-bottom: $margin-sm;
+			margin-bottom: $margin-xs;
 			font-weight: 500;
 			color: $amba-green;
-			min-height: 2.4rem;
+			@media (min-width: $medium-screen) {
+				min-height: 2.4rem;
+			}
 		}
 		.card-event-details {
 			margin-bottom: $margin-sm;
@@ -27,10 +29,15 @@
 			}
 		}
 		.card-event-description {
-			min-height: 6rem;
 			p {
 				color: $amba-dark-grey;
 				font-size: $font-size-xxs;
+			}
+			p:last-child {
+				margin-bottom: 0;
+			}
+			@media (min-width: $medium-screen) {
+				min-height: 6rem;
 			}
 		}
 	}

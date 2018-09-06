@@ -1,5 +1,8 @@
 .card-nested-content {
 	padding: $padding-xs;
+	p {
+		color: $amba-dark-grey;
+	}
 	p:first-child {
 		color: $amba-green;
 		font-weight: 600;
@@ -7,5 +10,8 @@
 	}
 	p:last-child {
 		margin-bottom: 0;
+	}
+	a {
+		color: $amba-orange;
 	}
 }

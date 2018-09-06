@@ -10,7 +10,6 @@
 	@media (min-width: $medium-screen) {
 		padding-left: 2rem;
 		padding-right: 2rem;
-
 	}
 	@media (min-width: $large-screen) {
 		padding-left: 4rem;
@@ -58,19 +57,18 @@
 }
 
 .amba-block-standard {
-	padding-top: $padding-sm;
-	padding-bottom: $padding-sm;
+	padding-top: $padding-xs;
+	padding-bottom: $padding-xs;
 	@media (min-width: $medium-screen) {
 		padding-top: $padding-xl;
 		padding-bottom: $padding-xl;
 	}
 	.amba-block-header {
-		margin-bottom: $margin-lg;
+		margin-bottom: $margin-sm;
 		p:last-child {
 			margin-bottom: 0;
 		}
 		@media (min-width: $medium-screen) {
-			margin-bottom: $margin-xl;
 			margin-bottom: $margin-xl;
 		}
 	}

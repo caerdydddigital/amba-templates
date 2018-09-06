@@ -373,6 +373,20 @@
 		"oAP": "\/html_partials\/content-blocks\/2-col\/business-schools\/_content--events.html",
 		"oF": 0
 		},
+	"\/html_partials\/content-blocks\/2-col\/business-schools\/accreditation\/_content--the-value-of-accreditation.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/2-col\/business-schools\/accreditation\/_content--the-value-of-accreditation.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/2-col\/business-schools\/accreditation\/_content--what-is-accreditation.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/2-col\/business-schools\/accreditation\/_content--what-is-accreditation.html",
+		"oF": 0
+		},
 	"\/html_partials\/content-blocks\/_1-col-colour.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -616,6 +630,13 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/html_partials\/content-blocks\/global-templates\/_template--2-col.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/global-templates\/_template--3-col.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/global-templates\/_template--3-col.html",
 		"oF": 0
 		},
 	"\/html_partials\/hero-blocks\/_page-hero.kit": {
