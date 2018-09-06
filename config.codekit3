@@ -282,6 +282,13 @@
 		"oAP": "\/html_partials\/components\/cards\/_card-nested-content.html",
 		"oF": 0
 		},
+	"\/html_partials\/content-blocks\/1-col-background-image\/_content--doing-mba.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/1-col-background-image\/_content--doing-mba.html",
+		"oF": 0
+		},
 	"\/html_partials\/content-blocks\/1-col\/_content-accreditation.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -317,32 +324,25 @@
 		"oAP": "\/html_partials\/content-blocks\/2-col\/_2-col.html",
 		"oF": 0
 		},
-	"\/html_partials\/content-blocks\/2-col\/content-business-schools.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/html_partials\/content-blocks\/2-col\/content-business-schools.html",
-		"oF": 0
-		},
-	"\/html_partials\/content-blocks\/2-col\/content-business-schools.kit": {
+	"\/html_partials\/content-blocks\/2-col\/_content--business-schools.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/html_partials\/content-blocks\/2-col\/content-business-schools.html",
+		"oAP": "\/html_partials\/content-blocks\/2-col\/_content--business-schools.html",
 		"oF": 0
 		},
-	"\/html_partials\/content-blocks\/2-col\/content-students-and-graduates.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/html_partials\/content-blocks\/2-col\/content-students-and-graduates.html",
-		"oF": 0
-		},
-	"\/html_partials\/content-blocks\/2-col\/content-students-and-graduates.kit": {
+	"\/html_partials\/content-blocks\/2-col\/_content--commercial-opportunities.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/html_partials\/content-blocks\/2-col\/content-students-and-graduates.html",
+		"oAP": "\/html_partials\/content-blocks\/2-col\/_content--commercial-opportunities.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/2-col\/_content--students-and-graduates.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/2-col\/_content--students-and-graduates.html",
 		"oF": 0
 		},
 	"\/html_partials\/content-blocks\/_1-col-colour.kit": {
@@ -504,6 +504,13 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/html_partials\/content-blocks\/_section-events.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/global-templates\/_template--1-col-background-image.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/global-templates\/_template--1-col-background-image.html",
 		"oF": 0
 		},
 	"\/html_partials\/content-blocks\/global-templates\/_template--1-col-colour.kit": {
