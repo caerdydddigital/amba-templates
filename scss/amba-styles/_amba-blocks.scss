@@ -58,8 +58,8 @@
 }
 
 .amba-block-standard {
-	padding-top: $padding-lg;
-	padding-bottom: $padding-lg;
+	padding-top: $padding-sm;
+	padding-bottom: $padding-sm;
 	@media (min-width: $medium-screen) {
 		padding-top: $padding-xl;
 		padding-bottom: $padding-xl;

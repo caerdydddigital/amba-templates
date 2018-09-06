@@ -345,6 +345,34 @@
 		"oAP": "\/html_partials\/content-blocks\/2-col\/_content--students-and-graduates.html",
 		"oF": 0
 		},
+	"\/html_partials\/content-blocks\/2-col\/business-schools\/_content--accreditation.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/2-col\/business-schools\/_content--accreditation.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/2-col\/business-schools\/_content--amba-dev-network.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/2-col\/business-schools\/_content--amba-dev-network.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/2-col\/business-schools\/_content--ambition-for-schools.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/2-col\/business-schools\/_content--ambition-for-schools.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/2-col\/business-schools\/_content--events.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/2-col\/business-schools\/_content--events.html",
+		"oF": 0
+		},
 	"\/html_partials\/content-blocks\/_1-col-colour.kit": {
 		"cB": 0,
 		"ft": 2048,
