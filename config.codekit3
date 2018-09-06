@@ -373,6 +373,13 @@
 		"oAP": "\/html_partials\/content-blocks\/2-col\/business-schools\/_content--events.html",
 		"oF": 0
 		},
+	"\/html_partials\/content-blocks\/2-col\/business-schools\/accreditation\/_content--become-accredited.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/2-col\/business-schools\/accreditation\/_content--become-accredited.html",
+		"oF": 0
+		},
 	"\/html_partials\/content-blocks\/2-col\/business-schools\/accreditation\/_content--the-value-of-accreditation.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -2596,6 +2603,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/amba-styles\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/amba-styles\/cards\/_card-accreditation-application.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/amba-styles\/cards\/_card-accreditation-application.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
