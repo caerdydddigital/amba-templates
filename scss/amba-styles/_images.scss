@@ -5,6 +5,15 @@
   height: auto;
 }
 
+.img-margin-bottom {
+	margin-bottom: $margin-md;
+	@media (min-width: $small-screen) {
+			margin-bottom: 0;
+	}
+}
+
+
+
 .img-icon {
 	max-width: 4rem;
 	margin-bottom: 1.2rem;

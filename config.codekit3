@@ -555,6 +555,20 @@
 		"oAP": "\/html_partials\/content-blocks\/global-templates\/_template--2-col-colour.html",
 		"oF": 0
 		},
+	"\/html_partials\/content-blocks\/global-templates\/_template--2-col-image-hug-left.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/global-templates\/_template--2-col-image-hug-left.html",
+		"oF": 0
+		},
+	"\/html_partials\/content-blocks\/global-templates\/_template--2-col-image-hug-right.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/html_partials\/content-blocks\/global-templates\/_template--2-col-image-hug-right.html",
+		"oF": 0
+		},
 	"\/html_partials\/content-blocks\/global-templates\/_template--2-col-image-left.kit": {
 		"cB": 0,
 		"ft": 2048,

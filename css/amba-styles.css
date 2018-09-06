@@ -166,6 +166,12 @@ a:hover,
   max-width: 100%;
   height: auto; }
 
+.img-margin-bottom {
+  margin-bottom: 2rem; }
+  @media (min-width: 576px) {
+    .img-margin-bottom {
+      margin-bottom: 0; } }
+
 .img-icon {
   max-width: 4rem;
   margin-bottom: 1.2rem; }
@@ -824,7 +830,7 @@ footer {
   .amba-container-block .row {
     margin-bottom: 2rem; } }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .amba-block-hug-left {
     padding-left: 0; }
   .amba-block-hug-right {
