@@ -1,0 +1,81 @@
+:root {
+  /* font size scale for 1.2 */
+  --font-size-1: 1rem;
+  --font-size-2: 1.2rem;
+  --font-size-3: 1.44rem;
+  --font-size-4: 1.728rem;
+  --font-size-5: 2.074rem;
+  --font-size-6: 2.488rem;
+  --font-size-7: 2.986rem;
+
+  /* font weight */
+  --font-weight-1: 200;
+  --font-weight-2: 300;
+  --font-weight-3: 400;
+  --font-weight-4: 500;
+  --font-weight-5: 600;
+  --font-weight-6: 700;
+  --font-weight-7: 800;
+
+  /* amba-colours */
+	--amba-green-gradient: rgba(255,255,255,0.5);
+	--amba-white: #fff;
+	--amba-off-white: #fcfdfd;
+	--amba-black: #000;
+	--amba-green: #00888A;
+	--amba-orange: #EE7401;
+	--amba-red: #8C0044;
+	--amba-light-grey: #E6EDEF;
+	--amba-mid-grey: #A4B3B7;
+	--amba-dark-grey: #1C2E36;
+
+  /* margins */
+  --margin-size-1: 0.2rem
+  --margin-size-2: 0.4rem
+  --margin-size-3: 0.8rem
+  --margin-size-4: 1.6rem
+  --margin-size-5: 3.2rem
+  --margin-size-6: 6.4rem
+  --margin-size-7: 12.8rem
+
+  /* padding */
+  --padding-size-1: 0.2rem;
+  --padding-size-2: 0.4rem;
+  --padding-size-3: 0.8rem;
+  --padding-size-4: 1.6rem;
+  --padding-size-5: 3.2rem;
+  --padding-size-6: 6.4rem;
+  --padding-size-7: 12.8rem;
+}
+
+
+@media screen and (min-width: $medium-screen) {
+  :root {
+    /* scale for 1.33 */
+    --font-size-1: 1rem;
+    --font-size-2: 1.333rem;
+    --font-size-3: 1.769rem;
+    --font-size-4: 2.353rem;
+    --font-size-5: 3.129rem;
+    --font-size-6: 4.162rem;
+    --font-size-7: 5.535rem;
+
+  	/* margins */
+	  --margin-size-1: 0.2rem;
+	  --margin-size-2: 0.466rem;
+	  --margin-size-3: 1.086rem;
+	  --margin-size-4: 2.53rem;
+	  --margin-size-5: 5.895rem;
+	  --margin-size-6: 13.734rem;
+	  --margin-size-7: 32.01rem;
+
+  	/* padding */
+  	--padding-size-1: 0.2rem;
+  	--padding-size-2: 0.466rem;
+  	--padding-size-3: 1.086rem;
+  	--padding-size-4: 2.53rem;
+  	--padding-size-5: 5.895rem;
+  	--padding-size-6: 13.734rem;
+  	--padding-size-7: 32.01rem;
+	}
+}

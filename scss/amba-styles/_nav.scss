@@ -1,18 +1,18 @@
 nav {
-	// padding-bottom: $padding-xs;
-	background-color: $amba-off-white;
+	// padding-bottom: var(--padding-size-2);
+	background-color: var(--amba-white);
 	display: flex;
 	a, h1, h5 {
 		padding: 0.2rem;
 		margin: 0 1rem;
 	}
 	a {
-		border-bottom: 0.2rem solid $amba-orange;
+		border-bottom: 0.2rem solid var(--amba-orange);
 		font-size: $font-size-xxs;
 	}
 	a:hover {
 		text-decoration: none;
-		border-bottom: 0.2rem solid $amba-green;
-		color: $amba-green;
+		border-bottom: 0.2rem solid var(--amba-green);
+		color: var(--amba-green);
 	}
 }

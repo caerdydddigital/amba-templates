@@ -1,8 +1,8 @@
 /* Card Enquiry */
 
 .card-enquiry {
-	margin-bottom: $margin-sm;
-	background-color: $amba-white;
+	margin-bottom: var(--margin-size-3);
+	background-color: var(--amba-white);
 	.card-enquiry-mugshot {
 		border-radius: $radius-sm 0 0 $radius-sm;
 		height: 11rem;
@@ -14,16 +14,16 @@
     filter: grayscale(100%);
 	}
 	.card-enquiry-body {
-		padding: $padding-xxs;
+		padding: var(--padding-size-1);
 		.person-name {
-			margin-bottom: $margin-xxs;
+			margin-bottom: var(--margin-size-1);
 		}
 		.person-job-title {
-			margin-bottom: $margin-xs;
+			margin-bottom: var(--margin-size-2);
 		}
 		.person-details,
 		a {
-			margin-bottom: $margin-xxs;
+			margin-bottom: var(--margin-size-1);
 			color: inherit;
 		}
 	}

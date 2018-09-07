@@ -1,17 +1,17 @@
 .card-nested-content {
-	padding: $padding-xs;
+	padding: var(--padding-size-2);
 	p {
-		color: $amba-dark-grey;
+		color: var(--amba-dark-grey);
 	}
 	p:first-child {
-		color: $amba-green;
+		color: var(--amba-green);
 		font-weight: 600;
-		margin-bottom: $margin-xs;
+		margin-bottom: var(--margin-size-2);
 	}
 	p:last-child {
 		margin-bottom: 0;
 	}
 	a {
-		color: $amba-orange;
+		color: var(--amba-orange);
 	}
 }

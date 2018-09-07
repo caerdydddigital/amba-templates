@@ -4,86 +4,69 @@
 
 :root {
 font-size: 16px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-a {
-	font-family: 'Nunito Sans', sans-serif; /* replace with Avenir when available */
-} 
-
-h6,
-p,
-p a,
-footer p,
-footer a {
-	font-family: 'Open Sans', sans-serif;
+color: var(--amba-dark-grey);
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  margin-top: 0;
-  margin-bottom: $margin-sm;
-}
-
-h1, h2, h3, h4, h5, h6 {
-/*  font-family: inherit;*/
+  color: var(--amba-dark-grey);
   line-height: 1.2;
   color: inherit;
   font-style: normal;
 }
 
+p {
+  color: var(--amba-dark-grey);
+}
+a, p a {
+  color: var(--amba-orange);
+}
+
 h1 {
-	font-size: $font-size-xxl;
-	font-weight: 800;
+  font-size: var(--font-size-7);
+  font-weight: var(--font-weight-7);
 }
-
 h2 {
-  font-size: $font-size-xl;
-  font-weight: 800;
+  font-size: var(--font-size-6);
+  font-weight: var(--font-weight-6);
 }
-
 h3 {
-  font-size: $font-size-lg;
-  font-weight: 600;
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-5);
 }
-
 h4 {
-  font-size: $font-size-md;
-  font-weight: 400;
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-4);
 }
-
 h5 {
- font-size: $font-size-sm;
- font-weight: 700;
- text-transform: uppercase;
+  font-size: var(--font-size-3);
+  font-weight: var(--font-weight-3);
+  text-transform: uppercase;
 }
-
 h6 {
-  font-size: $font-size-xs;
-  font-weight: 600;
-  margin-bottom: 0;
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-2);
+}
+p, a, p a {
+  font-size: var(--font-size-1);
+  font-weight: var(--font-weight-1);
 }
 
-p, p a {
-  font-size: $font-size-xs;
-  font-weight: 400;
+h1,h2,h3,h4,h5 {
+	font-family: 'Nunito Sans', sans-serif; /* replace with Avenir when available */
+} 
+
+h6,p,a,p a,footer p,footer a {
+	font-family: 'Open Sans', sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  margin-bottom: var(--margin-size-3);
+}
+
 
 p.link {
 	margin-bottom: 0.2rem;
-}
-
-p.body {
-  font-size: 1.0rem;
-  font-weight: 400;
-  margin-top: 0;
-}
-
-a {
-  color: #EE7401;
 }
 
 a:hover,

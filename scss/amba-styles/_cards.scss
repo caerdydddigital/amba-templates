@@ -1,17 +1,17 @@
 /* --- Card Master --- */
 
 .card-block {
-	padding: $padding-xs;
+	padding: var(--padding-size-2);
   border-radius: $radius-sm;
-	margin-bottom: $margin-sm;
+	margin-bottom: var(--margin-size-3);
 	i {
-		margin-right: $margin-xs;
+		margin-right: var(--margin-size-2);
 	}
 }
 
 .card {
   border-radius: $radius-sm;
-	margin-bottom: $margin-sm;
+	margin-bottom: var(--margin-size-3);
   margin: .5rem 0 1rem 0;
   // -webkit-transition: -webkit-box-shadow .25s;
   // transition: -webkit-box-shadow .25s;
@@ -19,11 +19,11 @@
   // transition: box-shadow .25s, -webkit-box-shadow .25s;
   // box-shadow: 0 2px 2px 0 rgba(0,0,0,0.05);
 	@media (min-width: $medium-screen) {
-		margin-bottom: $margin-md;
+		margin-bottom: var(--margin-size-4);
 	}
 	i {
 		margin-right: 0.4rem;
-		color: $amba-green;
+		color: var(--amba-green);
 	}
 }
 

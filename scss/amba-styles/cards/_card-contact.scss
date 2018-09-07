@@ -3,7 +3,7 @@
 .card-contact {
   margin: 0 auto;
   border-radius: 0.2rem;
-  padding: $padding-sm $padding-xs;
+  padding: $padding-sm var(--padding-size-2);
   min-height: 0;
 	&.card-contact-portrait {
 		max-width: 400px;
@@ -35,17 +35,17 @@
 	
 	.card-contact-body {
 		h4 {
-			color: $amba-green;
-			margin-bottom: $margin-xs;
+			color: var(--amba-green);
+			margin-bottom: var(--margin-size-2);
 		}
 		h5 {
-			margin-bottom: $margin-sm;
+			margin-bottom: var(--margin-size-3);
 		}
 		p {
-			margin-bottom: $margin-xs;
+			margin-bottom: var(--margin-size-2);
 		}
 		a {
-			color: $amba-dark-grey;
+			color: var(--amba-dark-grey);
 		}
 	}
 }

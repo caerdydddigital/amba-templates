@@ -1,103 +1,74 @@
 // Blocks
 
-
 .container-fluid {
   width: 100%;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: var(--padding-size-3);
+  padding-right: var(--padding-size-3);
   margin-right: auto;
   margin-left: auto;
-	@media (min-width: $medium-screen) {
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-	@media (min-width: $large-screen) {
-		padding-left: 4rem;
-		padding-right: 4rem;
-	}
 }
 
 .amba-strip-bg {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-	padding-top: $padding-xl;
-	padding-bottom: $padding-xl;
+	padding-top: var(--padding-size-5);
+	padding-bottom: var(--padding-size-5);
 	h1, h2, h3, h4, h5, p, a {
-		color: $amba-white;
-	}
-	@media (min-width: $medium-screen) {
-		padding-top: $padding-xxl;
-		padding-bottom: $padding-xxl;
+		color: var(--amba-white);
 	}
 }
 
 /* -- Block Depth --*/
 
 .amba-block-slim {
-  padding-top: $padding-xs;
-  padding-bottom: $padding-xs;
+  padding-top: var(--padding-size-3);
+  padding-bottom: var(--padding-size-3);
   p,
   a {
-  	color: $amba-white;
+  	color: var(--amba-white);
 		font-size: 0.8rem;
 		font-weight: 400;
 		margin: 0;
   }
 }
 
-
 .amba-block-shallow {
-	padding-top: $padding-sm;
-	padding-bottom: $padding-sm;
-	@media (min-width: $large-screen) {
-		padding-top: 2.8rem;
-		padding-bottom: 2.8rem;	
-	}
+	padding-top: var(--padding-size-3);
+	padding-bottom: var(--padding-size-3);
 }
 
 .amba-block-standard {
-	padding-top: $padding-xs;
-	padding-bottom: $padding-xs;
-	@media (min-width: $medium-screen) {
-		padding-top: $padding-xl;
-		padding-bottom: $padding-xl;
-	}
+	padding-top: var(--padding-size-3);
+	padding-bottom: var(--padding-size-3);
 	.amba-block-header {
-		margin-bottom: $margin-sm;
+		margin-bottom:var(--margin-size-2);
 		p:last-child {
 			margin-bottom: 0;
-		}
-		@media (min-width: $medium-screen) {
-			margin-bottom: $margin-xl;
 		}
 	}
 }
 
 .amba-block-deep {
-	padding-top: $padding-xl;
-	padding-bottom: $padding-xl;
-	@media (min-width: $medium-screen) {
-		padding-top: $padding-xxl;
-		padding-bottom: $padding-xxl;
-	}
+	padding-top: var(--padding-size-4);
+	padding-bottom: var(--padding-size-4);
 }
 
 .amba-block-nested {
 	border-radius: $radius-xs;
-	padding: $padding-xs;
+	padding: var(--padding-size-2);
 	@media (min-width: $medium-screen) {
-		padding: $padding-sm;
+		padding: var(--padding-size-3);
 	}
 }
 
 /* -- Bespoke List Elements --*/
 
 .amba-large-icon-list {
-	margin-top: $margin-xs;
-	margin-bottom: $margin-xs;
+	margin-top: var(--margin-size-2);
+	margin-bottom: var(--margin-size-2);
 	h4 {
-		color: $amba-green;
+		color: var(--amba-green);
 		margin-bottom: $margin-xs
 	}
 }

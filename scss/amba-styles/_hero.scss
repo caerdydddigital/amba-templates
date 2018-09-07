@@ -22,11 +22,11 @@
 
 .amba-hero-title {
 	color: #fff;
-	padding: $padding-xs $padding-sm;
+	padding: $padding-xs var(--padding-size-3);
 	border-radius: 0.2rem;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 1.75rem;
-	margin: 0 $padding-sm;
+	margin: 0 var(--padding-size-3);
 
 }
 

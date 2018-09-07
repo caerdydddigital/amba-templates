@@ -9,28 +9,28 @@
 	.card-body {
 		padding: $padding-xs 0;
 		p {
-			margin-bottom: $margin-xs;
+			margin-bottom: var(--margin-size-2);
 			font-size: $font-size-xxs;
-			color: $amba-mid-grey;
+			color: var(--amba-mid-grey);
 		}
 		.card-event-title {
-			margin-bottom: $margin-xs;
+			margin-bottom: var(--margin-size-2);
 			font-weight: 500;
-			color: $amba-green;
+			color: var(--amba-green);
 			@media (min-width: $medium-screen) {
 				min-height: 2.4rem;
 			}
 		}
 		.card-event-details {
-			margin-bottom: $margin-sm;
+			margin-bottom: var(--margin-size-3);
 			p {
-				color: $amba-mid-grey;
+				color: var(--amba-mid-grey);
 				font-size: $font-size-xxs;
 			}
 		}
 		.card-event-description {
 			p {
-				color: $amba-dark-grey;
+				color: var(--amba-dark-grey);
 				font-size: $font-size-xxs;
 			}
 			p:last-child {
