@@ -52,14 +52,15 @@
   :root {
     /* scale for 1.33 */
     --font-size-1: 1rem;
-    --font-size-2: 1.333rem;
-    --font-size-3: 1.769rem;
-    --font-size-4: 2.353rem;
-    --font-size-5: 3.129rem;
-    --font-size-6: 4.162rem;
-    --font-size-7: 5.535rem;
-    /* margins */
-    --margin-size-1: 0.2rem;
+    --font-size-2: 1.25rem
+    --font-size-3: 1.563rem
+    --font-size-4: 1.953rem
+    --font-size-5: 2.441rem
+    --font-size-6: 3.052rem
+    --font-size-7: 4.768rem
+
+  	/* margins */
+	  --margin-size-1: 0.2rem;
     --margin-size-2: 0.466rem;
     --margin-size-3: 1.086rem;
     --margin-size-4: 2.53rem;
@@ -97,8 +98,8 @@ h1 {
   font-weight: var(--font-weight-7); }
 
 h2 {
-  font-size: var(--font-size-6);
-  font-weight: var(--font-weight-6); }
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-5); }
 
 h3 {
   font-size: var(--font-size-5);
@@ -814,8 +815,8 @@ nav {
   padding-bottom: var(--padding-size-3); }
 
 .amba-block-standard {
-  padding-top: var(--padding-size-3);
-  padding-bottom: var(--padding-size-3); }
+  padding-top: var(--padding-size-4);
+  padding-bottom: var(--padding-size-4); }
   .amba-block-standard .amba-block-header {
     margin-bottom: var(--margin-size-2); }
     .amba-block-standard .amba-block-header p:last-child {
